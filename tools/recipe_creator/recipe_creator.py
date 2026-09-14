@@ -235,6 +235,7 @@ class RecipeCreator(QMainWindow):
         self.project_root = self._load_initial_project()
         self.image_source: Path | None = None
         self.unit_options: list[str] = ["each"]
+        self.active_section_row: int = -1
         self.logo_path = app_dir() / "assets" / "tritlekitchenlogo.png"
 
         self.setWindowTitle(APP_NAME)
@@ -409,10 +410,13 @@ class RecipeCreator(QMainWindow):
         self.ingredients.setColumnWidth(1, 125)
         self.ingredients.setColumnWidth(2, 260)
         self.ingredients.setAlternatingRowColors(True)
+        self.ingredients.currentCellChanged.connect(lambda row, *_: self._set_active_section_from_row(row))
         ing_layout.addWidget(self.ingredients, 1)
         ing_buttons = QHBoxLayout()
         for text, slot in [
             ("＋ Add Ingredient", self.add_ingredient),
+            ("＋ Add Section / Note", self.add_section),
+            ("Edit Section", self.edit_section),
             ("Remove", self.remove_ingredient),
             ("↑", lambda: self.move_ingredient(-1)),
             ("↓", lambda: self.move_ingredient(1)),
@@ -638,72 +642,189 @@ class RecipeCreator(QMainWindow):
 
     # ----------------------------- Ingredients -----------------------------
     def add_ingredient(self) -> None:
-        row = self.ingredients.rowCount()
+        """Add an ingredient under the most recently active section.
+
+        If a section was added/selected, the new ingredient is inserted at the
+        end of that section, immediately before the next section. Otherwise it
+        is appended to the ingredient list.
+        """
+        row = self._ingredient_insert_row()
         self.ingredients.insertRow(row)
-        self.ingredients.setItem(row, 0, QTableWidgetItem(""))
-
-        # Use a real dropdown for units, populated from the units already
-        # used throughout the Tritle Kitchen recipe JSON files.
-        unit_combo = self._make_unit_combo()
-        self.ingredients.setCellWidget(row, 1, unit_combo)
-
-        self.ingredients.setItem(row, 2, QTableWidgetItem(""))
-        self.ingredients.setItem(row, 3, QTableWidgetItem(""))
+        self._setup_ingredient_row(row)
         self.ingredients.setCurrentCell(row, 2)
         self.ingredients.editItem(self.ingredients.item(row, 2))
 
-    def _make_unit_combo(self, current: str = "each") -> QComboBox:
-        combo = QComboBox()
-        combo.addItems(self.unit_options)
-        if current and combo.findText(current, Qt.MatchFlag.MatchFixedString) < 0:
-            combo.addItem(current)
-        index = combo.findText(current, Qt.MatchFlag.MatchFixedString)
-        combo.setCurrentIndex(index if index >= 0 else 0)
-        combo.setToolTip("Choose a unit already used in your Tritle Kitchen recipes.")
-        return combo
+    def add_section(self) -> None:
+        """Insert a named ingredient-group heading and make it the active section."""
+        text, ok = QInputDialog.getText(
+            self,
+            "Add Ingredient Section",
+            "Section name:",
+        )
+        text = text.strip()
+        if not ok or not text:
+            return
 
-    def _unit_cell(self, row: int) -> str:
-        widget = self.ingredients.cellWidget(row, 1)
-        if isinstance(widget, QComboBox):
-            return widget.currentText().strip()
-        return self._cell(row, 1)
+        # New sections are inserted after the current section's ingredients.
+        if self.active_section_row >= 0:
+            row = self._section_end_row(self.active_section_row)
+        else:
+            row = self.ingredients.rowCount()
+
+        self.ingredients.insertRow(row)
+        self._setup_section_row(row, text)
+        self.active_section_row = row
+        self.ingredients.setCurrentCell(row, 2)
+
+    def edit_section(self) -> None:
+        row = self.ingredients.currentRow()
+        if row < 0 or not self._is_section_row(row):
+            QMessageBox.information(self, "Edit Section", "Select a section heading first.")
+            return
+        current = self._cell(row, 2)
+        text, ok = QInputDialog.getText(self, "Edit Ingredient Section", "Section name:", text=current)
+        text = text.strip()
+        if ok and text:
+            self.ingredients.item(row, 2).setText(text)
+            self.active_section_row = row
+            self._update_preview_header()
+
+    def _ingredient_insert_row(self) -> int:
+        if self.active_section_row < 0 or self.active_section_row >= self.ingredients.rowCount():
+            return self.ingredients.rowCount()
+        return self._section_end_row(self.active_section_row)
+
+    def _section_end_row(self, section_row: int) -> int:
+        row = section_row + 1
+        while row < self.ingredients.rowCount() and not self._is_section_row(row):
+            row += 1
+        return row
+
+    def _is_section_row(self, row: int) -> bool:
+        item = self.ingredients.item(row, 2)
+        return bool(item and item.data(Qt.ItemDataRole.UserRole) == "section")
+
+    def _setup_section_row(self, row: int, text: str) -> None:
+        for col in range(self.ingredients.columnCount()):
+            self.ingredients.setItem(row, col, QTableWidgetItem(""))
+            self.ingredients.item(row, col).setFlags(Qt.ItemFlag.ItemIsEnabled)
+        section_item = QTableWidgetItem(text)
+        section_item.setData(Qt.ItemDataRole.UserRole, "section")
+        font = section_item.font()
+        font.setBold(True)
+        section_item.setFont(font)
+        section_item.setForeground(self.ingredients.palette().text().color())
+        self.ingredients.setItem(row, 2, section_item)
+        self.ingredients.setSpan(row, 0, 1, 4)
+        self.ingredients.setRowHeight(row, 34)
+
+    def _setup_ingredient_row(self, row: int, amount: str = "", unit: str = "each", item: str = "", note: str = "") -> None:
+        self.ingredients.setItem(row, 0, QTableWidgetItem(amount))
+        self.ingredients.setCellWidget(row, 1, self._make_unit_combo(unit))
+        self.ingredients.setItem(row, 2, QTableWidgetItem(item))
+        self.ingredients.setItem(row, 3, QTableWidgetItem(note))
+
+    def _clear_row_span(self, row: int) -> None:
+        if self.ingredients.rowSpan(row, 0) > 1 or self.ingredients.columnSpan(row, 0) > 1:
+            self.ingredients.setSpan(row, 0, 1, 1)
+
+    def _set_active_section_from_row(self, row: int) -> None:
+        if row >= 0 and self._is_section_row(row):
+            self.active_section_row = row
+
+    def _refresh_active_section(self) -> None:
+        current = self.ingredients.currentRow()
+        if current >= 0 and self._is_section_row(current):
+            self.active_section_row = current
+            return
+        if self.active_section_row >= self.ingredients.rowCount():
+            self.active_section_row = -1
 
     def remove_ingredient(self) -> None:
         row = self.ingredients.currentRow()
-        if row >= 0:
-            self.ingredients.removeRow(row)
+        if row < 0:
+            return
+        was_section = self._is_section_row(row)
+        self.ingredients.removeRow(row)
+        if was_section:
+            self.active_section_row = -1
+        elif self.active_section_row > row:
+            self.active_section_row -= 1
+        elif self.active_section_row == row:
+            self.active_section_row = -1
 
     def move_ingredient(self, delta: int) -> None:
         row = self.ingredients.currentRow()
-        target = row + delta
-        if row < 0 or target < 0 or target >= self.ingredients.rowCount():
+        if row < 0:
             return
 
-        values = [
-            self._cell(row, 0),
-            self._unit_cell(row),
-            self._cell(row, 2),
-            self._cell(row, 3),
-        ]
-        target_values = [
-            self._cell(target, 0),
-            self._unit_cell(target),
-            self._cell(target, 2),
-            self._cell(target, 3),
-        ]
+        if self._is_section_row(row):
+            starts = [r for r in range(self.ingredients.rowCount()) if self._is_section_row(r)]
+            current_index = starts.index(row)
+            if delta < 0 and current_index == 0:
+                return
+            if delta > 0 and current_index == len(starts) - 1:
+                return
 
-        for source_row, row_values in ((row, target_values), (target, values)):
-            self.ingredients.setItem(source_row, 0, QTableWidgetItem(row_values[0]))
-            self.ingredients.removeCellWidget(source_row, 1)
-            self.ingredients.setCellWidget(source_row, 1, self._make_unit_combo(row_values[1]))
-            self.ingredients.setItem(source_row, 2, QTableWidgetItem(row_values[2]))
-            self.ingredients.setItem(source_row, 3, QTableWidgetItem(row_values[3]))
+            blocks = []
+            for idx, start_row in enumerate(starts):
+                end_row = starts[idx + 1] if idx + 1 < len(starts) else self.ingredients.rowCount()
+                blocks.append((start_row, end_row, [self._row_values(r) for r in range(start_row, end_row)]))
 
+            swap_index = current_index - 1 if delta < 0 else current_index + 1
+            block_values = [b[2] for b in blocks]
+            block_values[current_index], block_values[swap_index] = block_values[swap_index], block_values[current_index]
+            self._rebuild_ingredient_rows(block_values)
+            new_section_index = swap_index
+            section_starts = [r for r in range(self.ingredients.rowCount()) if self._is_section_row(r)]
+            self.active_section_row = section_starts[new_section_index]
+            self.ingredients.setCurrentCell(self.active_section_row, 2)
+            return
+
+        target = row + delta
+        if target < 0 or target >= self.ingredients.rowCount() or self._is_section_row(target):
+            return
+        values = self._row_values(row)
+        target_values = self._row_values(target)
+        self._restore_ingredient_row(row, target_values)
+        self._restore_ingredient_row(target, values)
         self.ingredients.setCurrentCell(target, 2)
+
+    def _rebuild_ingredient_rows(self, blocks: list[list[tuple[str, str, str, str, bool]]]) -> None:
+        values = [row for block in blocks for row in block]
+        self.ingredients.clearContents()
+        self.ingredients.setRowCount(0)
+        for row_values in values:
+            row = self.ingredients.rowCount()
+            self.ingredients.insertRow(row)
+            self._restore_ingredient_row(row, row_values)
+
+    def _row_values(self, row: int) -> tuple[str, str, str, str, bool]:
+        if self._is_section_row(row):
+            return (self._cell(row, 2), "", "", "", True)
+        return (self._cell(row, 0), self._unit_cell(row), self._cell(row, 2), self._cell(row, 3), False)
+
+    def _take_ingredient_rows(self, start: int, end: int) -> list[tuple[str, str, str, str, bool]]:
+        values = [self._row_values(r) for r in range(start, end)]
+        for _ in range(end - start):
+            self.ingredients.removeRow(start)
+        return values
+
+    def _restore_ingredient_row(self, row: int, values: tuple[str, str, str, str, bool]) -> None:
+        amount, unit, item, note, is_section = values
+        if is_section:
+            self._setup_section_row(row, amount)
+        else:
+            self._setup_ingredient_row(row, amount, unit, item, note)
 
     def collect_ingredients(self) -> list[dict]:
         ingredients: list[dict] = []
         for row in range(self.ingredients.rowCount()):
+            if self._is_section_row(row):
+                text = self._cell(row, 2)
+                if text:
+                    ingredients.append({"type": "section", "text": text})
+                continue
             amount = self._cell(row, 0)
             unit = self._unit_cell(row)
             item = self._cell(row, 2)
@@ -814,7 +935,7 @@ class RecipeCreator(QMainWindow):
             errors.append("A recipe photo is required.")
         if not ingredients:
             errors.append("Add at least one ingredient.")
-        elif any(not ingredient.get("item") for ingredient in ingredients):
+        elif any(ingredient.get("type") != "section" and not ingredient.get("item") for ingredient in ingredients):
             errors.append("Every ingredient row must have an Ingredient name.")
         if not directions:
             errors.append("Add at least one direction step.")
