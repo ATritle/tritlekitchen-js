@@ -342,12 +342,14 @@ function renderRecipe(recipe) {
   ];
 
   const ingredientHtml = ingredients.length
-    ? ingredients.map(ingredient => `
+    ? ingredients.map(ingredient => ingredient?.type === "section"
+        ? `<li class="ingredient-section">${escapeHtml(ingredient.text ?? "")}</li>`
+        : `
         <li class="ingredient-item">
           <span class="ingredient-dot"></span>
           <span>${escapeHtml(formatIngredient(ingredient))}</span>
-        </li>
-      `).join('')
+        </li>`
+      ).join('')
     : `<li class="empty-message">No ingredients are available for this recipe.</li>`;
 
   const directionHtml = directions.length
@@ -931,7 +933,7 @@ function renderGrocery(){
 }
 function getIngredientCategory(item=''){const n=item.toLowerCase();if(/soup|broth|stock|rotel|beans|canned|jar|package|can /.test(n))return'Canned & Pantry';if(/milk|cheese|cream|butter|yogurt|sour cream/.test(n))return'Dairy';if(/chicken|beef|bacon|pork|ham|steak|turkey|sausage/.test(n))return'Meat';if(/onion|lemon|apple|tomato|cucumber|pepper|cilantro|carrot|lettuce|zucchini|banana/.test(n))return'Produce';if(/flour|sugar|baking|oats|cocoa|powder|chips|rice/.test(n))return'Baking & Dry Goods';return'Other'}
 function icsEscape(value=''){return String(value).replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\r?\n/g,'\\n')}
-function exportCalendar(){const start=weekStart(new Date(),plannerOffset),plan=getPlan();let ics='BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Tritle Kitchen//EN\r\n';plan.forEach((day,i)=>{if(!day.length)return;const d=new Date(start);d.setDate(start.getDate()+i);const ds=d.toISOString().slice(0,10).replaceAll('-','');day.forEach(id=>{const r=recipeById(id);if(!r)return;const ingredients=(r.ingredients??[]).filter(i=>i?.item).map(i=>`- ${formatIngredient(i)}`);const description=ingredients.length?`INGREDIENTS\n\n${ingredients.join('\n')}`:'INGREDIENTS\n\nNo ingredients are available for this recipe.';ics+=`BEGIN:VEVENT\r\nUID:${crypto.randomUUID()}\r\nDTSTAMP:${ds}T120000Z\r\nDTSTART;VALUE=DATE:${ds}\r\nSUMMARY:${icsEscape(r.displayName)}\r\nDESCRIPTION:${icsEscape(description)}\r\nEND:VEVENT\r\n`})});ics+='END:VCALENDAR\r\n';const url=URL.createObjectURL(new Blob([ics],{type:'text/calendar'}));const a=document.createElement('a');a.href=url;a.download=`tritle-kitchen-week-${weekKey(start)}.ics`;a.click();URL.revokeObjectURL(url)}
+function exportCalendar(){const start=weekStart(new Date(),plannerOffset),plan=getPlan();let ics='BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Tritle Kitchen//EN\r\n';plan.forEach((day,i)=>{if(!day.length)return;const d=new Date(start);d.setDate(start.getDate()+i);const ds=d.toISOString().slice(0,10).replaceAll('-','');day.forEach(id=>{const r=recipeById(id);if(!r)return;const ingredients=(r.ingredients??[]).map(i=>i?.type === "section" ? `\n${String(i.text ?? "").toUpperCase()}\n` : i?.item ? `- ${formatIngredient(i)}` : "").filter(Boolean);const description=ingredients.length?`INGREDIENTS\n\n${ingredients.join('\n')}`:'INGREDIENTS\n\nNo ingredients are available for this recipe.';ics+=`BEGIN:VEVENT\r\nUID:${crypto.randomUUID()}\r\nDTSTAMP:${ds}T120000Z\r\nDTSTART;VALUE=DATE:${ds}\r\nSUMMARY:${icsEscape(r.displayName)}\r\nDESCRIPTION:${icsEscape(description)}\r\nEND:VEVENT\r\n`})});ics+='END:VCALENDAR\r\n';const url=URL.createObjectURL(new Blob([ics],{type:'text/calendar'}));const a=document.createElement('a');a.href=url;a.download=`tritle-kitchen-week-${weekKey(start)}.ics`;a.click();URL.revokeObjectURL(url)}
 function openSubmitModal(){modalRoot.innerHTML=`<div class="modal-backdrop" id="submitBackdrop"><div class="modal"><div class="modal-head"><h2>Submit a Recipe</h2><button class="btn" id="close">×</button></div><p class="meta">Prepare your recipe text and attach any photos using your usual submission method.</p><textarea id="recipeText" placeholder="Recipe name\n\nIngredients\n\nDirections"></textarea><div class="action-row"><button class="btn primary" id="copy">Copy Recipe</button><a class="btn" href="mailto:?subject=Tritle%20Kitchen%20Recipe%20Submission" id="email">Email</a></div></div></div>`; $('#close').onclick=()=>modalRoot.innerHTML=''; $('#submitBackdrop').onclick=e=>{if(e.target.id==='submitBackdrop')modalRoot.innerHTML='';}; $('#copy').onclick=async()=>{await navigator.clipboard?.writeText($('#recipeText').value);vibrate(10);}};
 
 function renderRoute(){
