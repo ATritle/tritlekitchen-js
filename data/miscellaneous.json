@@ -2,7 +2,6 @@
   "Breads": [
     {
       "name": "⭐ Banana Bread - Grandma Peggy",
-      "url": "recipes/banana-bread-grandma-peggy.html",
       "ingredients": [
         {
           "amount": 0.75,
@@ -76,7 +75,6 @@
     },
     {
       "name": "Banana Bread Bites",
-      "url": "recipes/banana-bread-bites.html",
       "ingredients": [
         {
           "amount": 2,
@@ -151,7 +149,6 @@
     },
     {
       "name": "Zucchini Bread",
-      "url": "recipes/zucchini-bread.html",
       "ingredients": [
         {
           "amount": 3,
@@ -231,7 +228,6 @@
   "Dips": [
     {
       "name": "Bacon Dip",
-      "url": "recipes/bacon-dip.html",
       "ingredients": [
         {
           "amount": 8,
@@ -286,7 +282,6 @@
     },
     {
       "name": "Bagel Dip",
-      "url": "recipes/bagel-dip.html",
       "ingredients": [
         {
           "amount": 3,
@@ -327,7 +322,6 @@
     },
     {
       "name": "Buffalo Chicken Dip",
-      "url": "recipes/buffalo-chicken-dip.html",
       "ingredients": [
         {
           "amount": 2,
@@ -364,7 +358,6 @@
     },
     {
       "name": "Corn Dip",
-      "url": "recipes/corn-dip.html",
       "ingredients": [
         {
           "amount": 4,
@@ -406,7 +399,6 @@
     },
     {
       "name": "Dunkaroo Dip",
-      "url": "recipes/dunkaroo-dip.html",
       "ingredients": [
         {
           "amount": 1,
@@ -435,7 +427,6 @@
     },
     {
       "name": "Jalapeno Corn Dip",
-      "url": "recipes/jalapeno-corn-dip.html",
       "ingredients": [
         {
           "amount": 0.5,
@@ -485,7 +476,6 @@
     },
     {
       "name": "Jalapeño Popper Dip",
-      "url": "recipes/jalapeno-popper-dip.html",
       "ingredients": [
         {
           "amount": 16,
@@ -526,7 +516,6 @@
     },
     {
       "name": "Mexican Corn Dip",
-      "url": "recipes/mexican-corn-dip.html",
       "ingredients": [
         {
           "amount": 1,
@@ -573,7 +562,6 @@
     },
     {
       "name": "Pickle Wrap Dip",
-      "url": "recipes/pickle-wrap-dip.html",
       "ingredients": [
         {
           "amount": 1,
@@ -611,7 +599,6 @@
     },
     {
       "name": "Pumpkin Harvest Dip",
-      "url": "recipes/pumpkin-harvest-dip.html",
       "ingredients": [
         {
           "amount": 8,
@@ -657,7 +644,6 @@
     },
     {
       "name": "Pumpkin Pie Dip",
-      "url": "recipes/pumpkin-pie-dip.html",
       "ingredients": [
         {
           "amount": 1,
@@ -697,7 +683,6 @@
     },
     {
       "name": "⭐ White Queso",
-      "url": "recipes/white-queso.html",
       "ingredients": [
         {
           "amount": 1,
@@ -751,7 +736,6 @@
   "Dressings": [
     {
       "name": "Caesar Dressing",
-      "url": "recipes/caesar-dressing.html",
       "ingredients": [
         {
           "amount": 2,
@@ -809,7 +793,6 @@
   "Misc.": [
     {
       "name": "Almond Flour",
-      "url": "recipes/almond-flour.html",
       "ingredients": [
         {
           "item": "pulp from almond milk"
@@ -826,7 +809,6 @@
     },
     {
       "name": "Almond Milk",
-      "url": "recipes/almond-milk.html",
       "ingredients": [
         {
           "amount": 3,
@@ -877,7 +859,6 @@
     },
     {
       "name": "Bourbon Butter",
-      "url": "recipes/bourbon-butter.html",
       "ingredients": [
         {
           "amount": 0.5,
@@ -926,7 +907,6 @@
     },
     {
       "name": "Caramel Popcorn Balls",
-      "url": "recipes/caramel-popcorn-balls.html",
       "ingredients": [
         {
           "amount": 14,
@@ -979,7 +959,6 @@
     },
     {
       "name": "Cinnamon Butter",
-      "url": "recipes/cinnamon-butter.html",
       "ingredients": [
         {
           "amount": 1,
@@ -1012,7 +991,6 @@
     },
     {
       "name": "Dry Brine",
-      "url": "recipes/dry-brine.html",
       "ingredients": [
         {
           "amount": 0.3333333333333333,
@@ -1061,7 +1039,6 @@
     },
     {
       "name": "⭐ Protein Balls",
-      "url": "recipes/protein-balls.html",
       "ingredients": [
         {
           "amount": 1,
@@ -1098,7 +1075,6 @@
     },
     {
       "name": "Puppy Chow",
-      "url": "recipes/puppy-chow.html",
       "ingredients": [
         {
           "amount": 1,
@@ -1138,7 +1114,6 @@
     },
     {
       "name": "Taco Seasoning",
-      "url": "recipes/taco-seasoning.html",
       "ingredients": [
         {
           "amount": 4,
@@ -1196,7 +1171,6 @@
     },
     {
       "name": "Turkey Tender Marinade",
-      "url": "recipes/turkey-tender-marinade.html",
       "ingredients": [
         {
           "amount": 0.5,
@@ -1253,7 +1227,6 @@
   "Sauces": [
     {
       "name": "Cajun Dipping Sauce",
-      "url": "recipes/cajun-dipping-sauce.html",
       "ingredients": [
         {
           "amount": 1,
@@ -1279,7 +1252,6 @@
     },
     {
       "name": "Fish Taco Sauce",
-      "url": "recipes/fish-taco-sauce.html",
       "ingredients": [
         {
           "amount": 3,
@@ -1314,7 +1286,6 @@
     },
     {
       "name": "⭐ Honey Mustard",
-      "url": "recipes/honey-mustard.html",
       "ingredients": [
         {
           "amount": 0.5,
@@ -1367,7 +1338,6 @@
     },
     {
       "name": "Margherita Pizza Sauce",
-      "url": "recipes/margherita-pizza-sauce.html",
       "ingredients": [
         {
           "amount": 1,
@@ -1414,7 +1384,6 @@
     },
     {
       "name": "Sweet and Sour Sauce",
-      "url": "recipes/sweet-and-sour-sauce.html",
       "ingredients": [
         {
           "amount": 1,
@@ -1466,7 +1435,6 @@
     },
     {
       "name": "Tzatziki Sauce",
-      "url": "recipes/tzatziki-sauce.html",
       "ingredients": [
         {
           "amount": 1.5,
@@ -1517,7 +1485,6 @@
   "Sides": [
     {
       "name": "Applesauce",
-      "url": "recipes/applesauce-grandma-peggy.html",
       "ingredients": [
         {
           "amount": 6,
@@ -1566,7 +1533,6 @@
     },
     {
       "name": "Avocado Chips - Keto",
-      "url": "recipes/avocado-chips-keto.html",
       "ingredients": [
         {
           "amount": 1,
@@ -1603,7 +1569,6 @@
     },
     {
       "name": "Baked Boursin Spaghetti Squash",
-      "url": "recipes/baked-boursin-spaghetti-squash.html",
       "ingredients": [
         {
           "amount": 1,
@@ -1674,7 +1639,6 @@
     },
     {
       "name": "Broccoli Apple Pear Salad",
-      "url": "recipes/broccoli-apple-pear-salad.html",
       "ingredients": [
         {
           "amount": 5,
@@ -1748,7 +1712,6 @@
     },
     {
       "name": "Ole Feller Beans",
-      "url": "recipes/ole-feller-beans.html",
       "ingredients": [
         {
           "amount": 1,
@@ -1840,7 +1803,6 @@
     },
     {
       "name": "Pinto Beans",
-      "url": "recipes/pinto-beans.html",
       "ingredients": [
         {
           "amount": 50,
@@ -1897,7 +1859,6 @@
     },
     {
       "name": "Potato Salad",
-      "url": "recipes/potato-salad.html",
       "ingredients": [
         {
           "amount": 8,
@@ -1960,7 +1921,6 @@
     },
     {
       "name": "Quinoa Black Bean Salad",
-      "url": "recipes/quinoa-black-bean-salad.html",
       "ingredients": [
         {
           "amount": 2,
@@ -2045,7 +2005,6 @@
     },
     {
       "name": "Sweet Potato Casserole",
-      "url": "recipes/sweet-potato-casserole.html",
       "ingredients": [
         {
           "amount": 3,
@@ -2122,7 +2081,6 @@
     },
     {
       "name": "Sweet Potatoes",
-      "url": "recipes/sweet-potatoes.html",
       "ingredients": [
         {
           "amount": 3,
@@ -2170,7 +2128,6 @@
     },
     {
       "name": "Sweet Potatoes Gratin",
-      "url": "recipes/sweet-potato-gratin.html",
       "ingredients": [
         {
           "amount": 0.75,
@@ -2252,7 +2209,6 @@
     },
     {
       "name": "Vermicelli Pasta Salad",
-      "url": "recipes/vermicelli-pasta-salad.html",
       "ingredients": [
         {
           "amount": 16,
