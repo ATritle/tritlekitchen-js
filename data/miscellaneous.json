@@ -1673,6 +1673,80 @@
       ]
     },
     {
+      "name": "Broccoli Apple Pear Salad",
+      "url": "recipes/broccoli-apple-pear-salad.html",
+      "ingredients": [
+        {
+          "amount": 5,
+          "unit": "cup",
+          "item": "Broccoli florets",
+          "note": "Cut into small bites"
+        },
+        {
+          "amount": 1,
+          "unit": "each",
+          "item": "Apple",
+          "note": "Diced"
+        },
+        {
+          "amount": 1,
+          "unit": "each",
+          "item": "Pear",
+          "note": "Diced"
+        },
+        {
+          "amount": "1/4",
+          "unit": "cup",
+          "item": "Red Onion",
+          "note": "Diced"
+        },
+        {
+          "amount": 1,
+          "unit": "cup",
+          "item": "salted cashews",
+          "note": "toasted or roasted if you want"
+        },
+        {
+          "amount": 1,
+          "unit": "cup",
+          "item": "dried cranberries"
+        },
+        {
+          "amount": "1/2",
+          "unit": "cup",
+          "item": "mayo"
+        },
+        {
+          "amount": "1/2",
+          "unit": "cup",
+          "item": "sour cream or greek yogurt"
+        },
+        {
+          "amount": 1,
+          "unit": "cup",
+          "item": "honey",
+          "note": "warmed up"
+        },
+        {
+          "amount": "1/4",
+          "unit": "tsp",
+          "item": "salt"
+        },
+        {
+          "amount": 2,
+          "unit": "TBSP",
+          "item": "lemon juice"
+        }
+      ],
+      "directions": [
+        "Add all vegetables, fruit and cashews to a bowl.",
+        "Combine mayo, sour cream (greek yogurt), honey, salt and lemon juice.  Mix together.",
+        "Add creamy dessing to bowl of vegetables, fruit and cashews.",
+        "Combine and serve chilled."
+      ],
+      "subtitle": "Linda Benter"
+    },
+    {
       "name": "Ole Feller Beans",
       "url": "recipes/ole-feller-beans.html",
       "ingredients": [
