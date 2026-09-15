@@ -1395,8 +1395,7 @@ body {
   color: var(--text);
 }
 
-.nav a:hover::after,
-.nav a[href="#home"]::after {
+.nav a.active::after {
   transform: scaleX(1);
 }
 
@@ -2961,22 +2960,8 @@ body {
    The mobile print class is added by main.js before printing.
    ============================================================ */
 @media print {
-  /*
-     Compact phone/tablet recipe card.
-     Keep the document height content-driven so the 100% print height from
-     the desktop print rules cannot create a trailing blank page.
-  */
   body.mobile-recipe-print {
     --mobile-card-text: #222222;
-    height: auto !important;
-    min-height: 0 !important;
-    overflow: visible !important;
-  }
-
-  body.mobile-recipe-print #app {
-    min-height: 0 !important;
-    height: auto !important;
-    overflow: visible !important;
   }
 
   body.mobile-recipe-print .recipe-page-v2 {
@@ -2991,8 +2976,6 @@ body {
     overflow: visible !important;
     background: #ffffff !important;
     color: var(--mobile-card-text) !important;
-    break-after: avoid-page !important;
-    page-break-after: avoid !important;
   }
 
   body.mobile-recipe-print .recipe-intro {
@@ -3033,14 +3016,6 @@ body {
     align-items: start !important;
     min-height: 0 !important;
     margin: 0 !important;
-    break-inside: avoid !important;
-    page-break-inside: avoid !important;
-  }
-
-  body.mobile-recipe-print .ingredients-panel,
-  body.mobile-recipe-print .directions-panel {
-    break-inside: avoid !important;
-    page-break-inside: avoid !important;
   }
 
   body.mobile-recipe-print .recipe-panel {
