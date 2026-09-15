@@ -481,21 +481,33 @@ function renderRecipe(recipe) {
   });
 
   const printButton = $('#printRecipe');
-  const mobilePrintQuery = window.matchMedia('(max-width: 700px)');
 
-  const updatePrintButtonLabel = () => {
-    if (!printButton) return;
-    printButton.textContent = mobilePrintQuery.matches
-      ? '💾 Save Recipe PDF'
-      : '🖨 Print / Save PDF';
+  // Use the compact recipe-card print layout on phones and tablets,
+  // regardless of whether the device is currently portrait or landscape.
+  // Android/iOS devices are detected independently of viewport width so
+  // rotating a phone or tablet cannot switch to the desktop print layout.
+  const isMobileOrTabletDevice = () => {
+    const ua = navigator.userAgent || '';
+    const isAppleMobile = /iPhone|iPad|iPod/i.test(ua);
+    const isAndroid = /Android/i.test(ua);
+    // iPadOS can request the desktop Safari user-agent, so identify it
+    // by its Macintosh UA combined with touch support.
+    const isIPadDesktopMode =
+      /Macintosh/i.test(ua) && Number(navigator.maxTouchPoints || 0) > 1;
+
+    return isAppleMobile || isAndroid || isIPadDesktopMode;
   };
 
-  updatePrintButtonLabel();
-  mobilePrintQuery.addEventListener?.('change', updatePrintButtonLabel);
+  const compactPrintDevice = isMobileOrTabletDevice();
+
+  if (printButton) {
+    printButton.textContent = compactPrintDevice
+      ? '💾 Save Recipe PDF'
+      : '🖨 Print / Save PDF';
+  }
 
   printButton?.addEventListener('click', () => {
-    const isMobile = mobilePrintQuery.matches;
-    document.body.classList.toggle('mobile-recipe-print', isMobile);
+    document.body.classList.toggle('mobile-recipe-print', compactPrintDevice);
     window.print();
   });
 
