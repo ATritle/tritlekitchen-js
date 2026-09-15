@@ -48,7 +48,8 @@
         "Pour the mixture into an 8x8-inch freezer-safe pan lined with parchment paper.",
         "Top with walnuts and/or coconut flakes, if desired.",
         "Freeze for at least 3 hours before cutting into cubes."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Blueberry Oat Bars",
@@ -103,7 +104,8 @@
         "Bake for 20–25 minutes, or until slightly golden.",
         "Allow to cool completely before cutting into bars.",
         "Store in the freezer for best texture."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Caramel Rice Krispies Treats",
@@ -149,7 +151,8 @@
         "In a microwave-safe glass bowl, combine 1¼ sticks of butter, caramels, and sweetened condensed milk. Microwave in 45-second increments, stirring between each, until fully melted and smooth.",
         "Press half of the Rice Krispies mixture into a greased or parchment-lined pan. Pour the caramel mixture evenly over the top and refrigerate for 1 hour.",
         "Spread the remaining Rice Krispies mixture over the caramel layer and press gently to seal."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Chocolate Chickpea Brownies",
@@ -221,7 +224,8 @@
         "Fold in the chocolate chips.",
         "Lightly grease an 8x8-inch pan and spread the batter evenly into the pan. Sprinkle additional chocolate chips on top, if desired.",
         "Bake for 21–23 minutes, or until the center is set and a toothpick inserted comes out mostly clean."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Chunky Blonde Brownies",
@@ -294,7 +298,8 @@
         "In a separate bowl, whisk together the flour, baking powder, and salt. Gradually add the dry ingredients to the butter mixture and mix until just combined.",
         "Fold in the white chocolate chips and nuts, then spread the batter evenly into a greased 9x13-inch pan.",
         "Bake for 25–30 minutes, or until the edges are lightly golden and a toothpick inserted in the center comes out clean."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Mary Bars",
@@ -338,7 +343,8 @@
         "In a large bowl, add the Rice Krispies and fold in the peanut butter mixture until well combined.",
         "Lightly grease a 9x13-inch pan or a 12x18-inch baking sheet. Press the Rice Krispies mixture evenly into the pan.",
         "In a microwave-safe bowl, melt the almond bark on power level 2, stirring every couple of minutes, for 15–17 minutes or until fully melted. Stir in the chocolate chips and ½ cup peanut butter until smooth."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "⭐ Monster Cookie Bars",
@@ -406,7 +412,8 @@
         "Fold in the chocolate chips and M&M’s until evenly distributed.",
         "Drop dollops of dough evenly across the baking sheet rather than placing it all in the center. Gently press the dough into an even layer.",
         "Bake for 15 minutes. Do not overbake."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Rhubarb Cheesecake Squares",
@@ -488,7 +495,8 @@
         "Spread the cream cheese mixture over the crust and sprinkle with the reserved crumble topping.",
         "Bake for about 40 minutes, or until golden brown and the filling is set.",
         "Refrigerate, covered, for about 2 hours before cutting into squares."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "S'more Bars",
@@ -528,7 +536,8 @@
         "Once melted, remove from heat and stir in 1 cup chocolate chips and 2 cups marshmallows. Work quickly and spread the mixture evenly over the graham crackers using a greased spatula.",
         "Optional: Sprinkle additional chocolate chips on top.",
         "Refrigerate for about 2 hours. Remove from the pan and cut into squares."
-      ]
+      ],
+      "glutenFree": false
     }
   ],
   "Cake": [
@@ -576,7 +585,8 @@
           "item": "mini chocolate chips"
         }
       ],
-      "directions": []
+      "directions": [],
+      "glutenFree": true
     },
     {
       "name": "Better Than Sex Cake",
@@ -613,7 +623,8 @@
         "In a saucepan over low heat, combine the sweetened condensed milk and caramel. Stir until smooth and well blended.",
         "Slowly pour the caramel mixture evenly over the cake, allowing it to seep into the holes.",
         "Spread the whipped topping evenly over the cake. Drizzle with additional caramel and sprinkle with crushed Heath bars."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Caramel Cinnamon Rolls",
@@ -707,7 +718,8 @@
         "In the morning, preheat the oven to 350°F and bake for 15–20 minutes, or until golden brown.",
         "Immediately invert the hot rolls onto a baking sheet or serving tray to allow the caramel to coat the tops. (This step is not necessary if frosting instead.)",
         "Cover loosely with foil or a clean kitchen towel to keep warm before serving."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Chocolate Zucchini Cake",
@@ -788,7 +800,8 @@
         "Allow the cake to cool completely before frosting.",
         "See the chocolate buttercream frosting recipe for topping.",
         "Cover and store in the refrigerator for up to 5 days."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Chocolate Zucchini Muffins",
@@ -889,7 +902,8 @@
         "Fold in the chocolate chips and pour the batter into the prepared tin.",
         "Bake mini muffins for 12–15 minutes, regular muffins for 20–25 minutes, or a loaf in a bread pan for 45–60 minutes, or until a toothpick inserted into the center comes out clean.",
         "Store at room temperature for 3–4 days or freeze for up to 1–2 months."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Red Velvet Cake",
@@ -1015,7 +1029,8 @@
         "Frost the cake once it has completely cooled. If using two round cake pans, remove the cakes by inverting the pans.",
         "Place one cake layer on a serving plate and frost the top. Place the second cake layer on top.",
         "Continue frosting the top and sides of the cake. Optional: Decorate the cake as desired."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Strawberry Banana Poke Cake",
@@ -1067,7 +1082,8 @@
         "Layer the sliced strawberries and bananas over the gelatin and pound cake.",
         "In a medium bowl, whisk the vanilla pudding mix and milk for about 2 minutes. Refrigerate for 5 minutes to allow it to set.",
         "Once the pudding has thickened, fold in the whipped topping and spread evenly over the cake."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Vegan Zucchini Muffins",
@@ -1142,7 +1158,8 @@
         }
       ],
       "subtitle": "minimalistbaker.com",
-      "directions": []
+      "directions": [],
+      "glutenFree": true
     }
   ],
   "Layered Dish": [
@@ -1195,7 +1212,8 @@
         "Add the cream cheese mixture to the pudding and mix until well combined.",
         "Pour the mixture evenly over the cookies and bananas. Top with the remaining cookies.",
         "Cover and refrigerate until ready to serve, preferably at least 4 hours to allow the layers to set."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "⭐ Peach Cobbler",
@@ -1244,7 +1262,8 @@
         "Pour the cake mixture over the peaches, gently spreading the batter to cover them evenly. Sprinkle the remaining brown sugar and cinnamon on top, then drizzle with honey.",
         "Bake for 20–35 minutes, or until a toothpick inserted into the cake comes out clean. Baking time may vary, so check periodically.",
         "Optional: Serve warm with vanilla ice cream."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Rhubarb Butter Crunch",
@@ -1309,7 +1328,8 @@
         "In a large bowl, combine the rhubarb, sugar, 2 tablespoons flour, nutmeg, and cinnamon. Toss until the rhubarb is evenly coated, then transfer to the prepared baking dish.",
         "In a separate bowl, combine the brown sugar, 1¼ cups flour, old-fashioned oats, and butter. Mix until crumbly and well combined.",
         "Sprinkle the crumble evenly over the rhubarb. Bake for 30–40 minutes, or until the topping is golden brown."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Strawberry Rhubarb Crisp",
@@ -1374,7 +1394,8 @@
         "Sprinkle the crumble evenly over the strawberry mixture and bake for about 45 minutes, or until the topping is crisp and lightly golden.",
         "Allow the crisp to rest for about 10 minutes before serving.",
         "Optional: Serve warm with vanilla ice cream."
-      ]
+      ],
+      "glutenFree": false
     }
   ],
   "Misc.": [
@@ -1422,7 +1443,8 @@
         "Spread the mixture onto a large baking sheet and bake for 45 minutes, stirring every 10–15 minutes.",
         "Remove from the oven and spread onto wax paper to cool. Once cooled, break into pieces.",
         "Optional: Drizzle melted chocolate chips over the puffcorn after baking and allow to set before serving."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Chocolate Buttercream Frosting",
@@ -1464,7 +1486,8 @@
         "If the frosting is too thin, add up to ¼ cup powdered sugar or cocoa powder. If too thick, add 1–2 tablespoons heavy cream.",
         "If the frosting is too thin, add up to ¼ cup powdered sugar or cocoa powder. If too thick, add 1–2 tablespoons heavy cream, starting with 1 tablespoon and adding more as needed.",
         "Taste and adjust with an additional pinch of salt, if desired."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Chocolate Chip Cookies",
@@ -1532,7 +1555,8 @@
         "In a separate bowl, whisk together the flour, baking soda, baking powder, and salt.",
         "Gradually add the dry ingredients to the butter mixture and mix until just combined.",
         "Bake for 10–12 minutes, or until the edges are lightly golden."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Chocolate Peanut Butter Mousse - Keto",
@@ -1570,7 +1594,8 @@
         "Add the peanut butter and cocoa powder. Beat on medium speed for 1 minute, or until fully combined and smooth.",
         "Gradually add the heavy cream and continue beating until the mixture becomes light and fluffy.",
         "Store in the refrigerator until ready to serve. This mixture can also be frozen and thawed in the refrigerator before serving."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Cream Cheese Fluff - Keto",
@@ -1596,7 +1621,8 @@
       "directions": [
         "In a large bowl, beat the cream cheese and confectioners’ sugar with a hand mixer until smooth.",
         "Gradually add the heavy cream and continue mixing until light and fluffy."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Everything Bagel Seasoning",
@@ -1633,7 +1659,8 @@
           "item": "flaky sea salt"
         }
       ],
-      "directions": []
+      "directions": [],
+      "glutenFree": true
     },
     {
       "name": "Monkey Bread",
@@ -1674,7 +1701,8 @@
         "In a bowl, combine the melted butter and brown sugar. Pour evenly over the biscuits.",
         "Bake for 28–32 minutes, or until golden brown and no doughy spots remain in the center.",
         "Allow to cool in the pan for 5–10 minutes, then invert onto a serving plate and remove the pan."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Monster Cookies",
@@ -1740,7 +1768,8 @@
         "Add the oats to the bowl. Sprinkle the baking soda evenly over the oats, then stir until fully incorporated.",
         "Fold in the M&M’s. Scoop the dough into balls.",
         "Place 12 dough balls onto each baking sheet and bake for 8–10 minutes, or until lightly golden brown."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Neiman Marcus Cookies",
@@ -1816,7 +1845,8 @@
         "Preheat oven to 375°F and line a cookie sheet with parchment paper.",
         "In a large bowl, mix ingredients in order.",
         "Scoop the dough onto the prepared baking sheet and bake for 10 minutes, or until lightly golden."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Oreo Fluff",
@@ -1856,7 +1886,8 @@
         "Fold in the crushed Oreos until evenly coated.",
         "Gently fold in the Cool Whip until no white or yellow streaks remain, being careful not to overmix.",
         "Refrigerate overnight. Top with additional crushed Oreos before serving."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Oreo Fluff - Keto",
@@ -1882,7 +1913,8 @@
       "directions": [
         "In a large bowl, combine the Cool Whip and pudding mix. Stir until smooth and well blended.",
         "Fold in the brownie pieces until evenly incorporated. Top with additional chopped brownies before serving."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Peanut Butter Cups",
@@ -1931,7 +1963,8 @@
         "Remove the tin from the freezer and spoon the remaining chocolate over the peanut butter layer. Sprinkle with sea salt, if desired.",
         "Return the muffin tin to the freezer for 30–60 minutes, or until fully set.",
         "Store in the refrigerator for 5–7 days or in the freezer for up to 2 months."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Peanut Butter Frosting",
@@ -1968,7 +2001,8 @@
         "In a large bowl, cream the butter and peanut butter together. Gradually add the powdered sugar and mix until smooth.",
         "Stir in the milk and vanilla until well combined.",
         "If the frosting is too thick, add 1 tablespoon milk at a time. If it is too thin, add additional powdered sugar until the desired consistency is reached."
-      ]
+      ],
+      "glutenFree": false
     }
   ]
 }

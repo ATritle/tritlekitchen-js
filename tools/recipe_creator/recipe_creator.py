@@ -11,6 +11,7 @@ from PyQt6.QtGui import QFont, QIcon, QPixmap, QImage, QImageReader
 from PyQt6.QtWidgets import (
     QApplication,
     QComboBox,
+    QCheckBox,
     QDialog,
     QDialogButtonBox,
     QFileDialog,
@@ -341,6 +342,11 @@ class RecipeCreator(QMainWindow):
         self.subtitle_edit.setPlaceholderText("Optional source, author, or short subtitle")
         form.addRow("Subtitle", self.subtitle_edit)
 
+        self.gluten_free_check = QCheckBox("Gluten Free")
+        self.gluten_free_check.setToolTip("Mark this recipe as Gluten Free.")
+        self.gluten_free_check.stateChanged.connect(lambda _state: self._update_preview_header())
+        form.addRow("Dietary Tag", self.gluten_free_check)
+
         self.category_combo = QComboBox()
         self.category_combo.addItems(CATEGORIES)
         self.category_combo.currentTextChanged.connect(self._refresh_subcategories)
@@ -652,7 +658,6 @@ class RecipeCreator(QMainWindow):
         self.ingredients.insertRow(row)
         self._setup_ingredient_row(row)
         self.ingredients.setCurrentCell(row, 2)
-        self.ingredients.editItem(self.ingredients.item(row, 2))
 
     def add_section(self) -> None:
         """Insert a named ingredient-group heading and make it the active section."""
@@ -674,18 +679,18 @@ class RecipeCreator(QMainWindow):
         self.ingredients.insertRow(row)
         self._setup_section_row(row, text)
         self.active_section_row = row
-        self.ingredients.setCurrentCell(row, 2)
+        self.ingredients.setCurrentCell(row, 0)
 
     def edit_section(self) -> None:
         row = self.ingredients.currentRow()
         if row < 0 or not self._is_section_row(row):
             QMessageBox.information(self, "Edit Section", "Select a section heading first.")
             return
-        current = self._cell(row, 2)
+        current = self._cell(row, 0)
         text, ok = QInputDialog.getText(self, "Edit Ingredient Section", "Section name:", text=current)
         text = text.strip()
         if ok and text:
-            self.ingredients.item(row, 2).setText(text)
+            self.ingredients.item(row, 0).setText(text)
             self.active_section_row = row
             self._update_preview_header()
 
@@ -701,22 +706,41 @@ class RecipeCreator(QMainWindow):
         return row
 
     def _is_section_row(self, row: int) -> bool:
-        item = self.ingredients.item(row, 2)
+        item = self.ingredients.item(row, 0)
         return bool(item and item.data(Qt.ItemDataRole.UserRole) == "section")
 
     def _setup_section_row(self, row: int, text: str) -> None:
-        for col in range(self.ingredients.columnCount()):
-            self.ingredients.setItem(row, col, QTableWidgetItem(""))
-            self.ingredients.item(row, col).setFlags(Qt.ItemFlag.ItemIsEnabled)
+        # A spanning QTableWidget row must store its item in the top-left
+        # cell (column 0).  The previous implementation put the section
+        # item in column 2 after spanning the row, which can leave the
+        # heading invisible and can cause Qt to crash when a new ingredient
+        # is added/edited in the spanned row.
         section_item = QTableWidgetItem(text)
         section_item.setData(Qt.ItemDataRole.UserRole, "section")
+        section_item.setFlags(Qt.ItemFlag.ItemIsEnabled | Qt.ItemFlag.ItemIsSelectable)
         font = section_item.font()
         font.setBold(True)
         section_item.setFont(font)
         section_item.setForeground(self.ingredients.palette().text().color())
-        self.ingredients.setItem(row, 2, section_item)
-        self.ingredients.setSpan(row, 0, 1, 4)
+        self.ingredients.setItem(row, 0, section_item)
         self.ingredients.setRowHeight(row, 34)
+
+    def _make_unit_combo(self, value: str = "") -> QComboBox:
+        combo = QComboBox()
+        combo.setEditable(True)
+        combo.setInsertPolicy(QComboBox.InsertPolicy.NoInsert)
+        combo.addItems(self.unit_options)
+        if value and value not in self.unit_options:
+            combo.addItem(value)
+        combo.setCurrentText(value or "each")
+        combo.setToolTip("Choose an existing unit from the list, or type a custom unit.")
+        return combo
+
+    def _unit_cell(self, row: int) -> str:
+        widget = self.ingredients.cellWidget(row, 1)
+        if isinstance(widget, QComboBox):
+            return widget.currentText().strip()
+        return self._cell(row, 1)
 
     def _setup_ingredient_row(self, row: int, amount: str = "", unit: str = "each", item: str = "", note: str = "") -> None:
         self.ingredients.setItem(row, 0, QTableWidgetItem(amount))
@@ -778,7 +802,7 @@ class RecipeCreator(QMainWindow):
             new_section_index = swap_index
             section_starts = [r for r in range(self.ingredients.rowCount()) if self._is_section_row(r)]
             self.active_section_row = section_starts[new_section_index]
-            self.ingredients.setCurrentCell(self.active_section_row, 2)
+            self.ingredients.setCurrentCell(self.active_section_row, 0)
             return
 
         target = row + delta
@@ -801,7 +825,7 @@ class RecipeCreator(QMainWindow):
 
     def _row_values(self, row: int) -> tuple[str, str, str, str, bool]:
         if self._is_section_row(row):
-            return (self._cell(row, 2), "", "", "", True)
+            return (self._cell(row, 0), "", "", "", True)
         return (self._cell(row, 0), self._unit_cell(row), self._cell(row, 2), self._cell(row, 3), False)
 
     def _take_ingredient_rows(self, start: int, end: int) -> list[tuple[str, str, str, str, bool]]:
@@ -821,7 +845,7 @@ class RecipeCreator(QMainWindow):
         ingredients: list[dict] = []
         for row in range(self.ingredients.rowCount()):
             if self._is_section_row(row):
-                text = self._cell(row, 2)
+                text = self._cell(row, 0)
                 if text:
                     ingredients.append({"type": "section", "text": text})
                 continue
@@ -912,6 +936,7 @@ class RecipeCreator(QMainWindow):
         return {
             "name": title,
             "url": f"recipes/{slug}.html",
+            "glutenFree": bool(self.gluten_free_check.isChecked()),
             "ingredients": self.collect_ingredients(),
             "directions": self.collect_directions(),
             **({"subtitle": self.subtitle_edit.text().strip()} if self.subtitle_edit.text().strip() else {}),
@@ -1084,6 +1109,7 @@ class RecipeCreator(QMainWindow):
     def clear_form(self) -> None:
         self.title_edit.clear()
         self.subtitle_edit.clear()
+        self.gluten_free_check.setChecked(False)
         self.category_combo.setCurrentIndex(0)
         self.subcategory_combo.setCurrentText("")
         self.ingredients.setRowCount(0)

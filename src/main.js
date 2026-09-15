@@ -111,14 +111,15 @@ function renderHome() {
     `<button class="category-chip active" data-category="">All Recipes</button>`,
     ...categories.map(c =>
       `<button class="category-chip" data-category="${escapeHtml(c)}">${escapeHtml(c)}</button>`
-    )
+    ),
+    `<button class="category-chip" data-category="__gluten_free__">Gluten Free</button>`
   ].join('');
 
   const updateSubcategories = () => {
     subcategory.innerHTML = '<option value="">All sub-categories</option>';
     subcategory.disabled = !activeCategory;
 
-    if (activeCategory) {
+    if (activeCategory && activeCategory !== "__gluten_free__") {
       Object.keys(db.categories[activeCategory])
         .sort((a, b) => a.localeCompare(b))
         .forEach(s => subcategory.add(new Option(s, s)));
@@ -147,7 +148,8 @@ function renderHome() {
 
     const filtered = db.recipes
       .filter(r => {
-        if (activeCategory && r.category !== activeCategory) return false;
+        if (activeCategory === "__gluten_free__" && !r.glutenFree) return false;
+        if (activeCategory && activeCategory !== "__gluten_free__" && r.category !== activeCategory) return false;
         if (subcategory.value && r.subcategory !== subcategory.value) return false;
         if (favoritesOnly && !r.favorite) return false;
         if (nameTerm && !r.displayName.toLowerCase().includes(nameTerm)) return false;

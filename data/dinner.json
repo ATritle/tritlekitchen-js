@@ -43,7 +43,8 @@
         "Add the cooked ground beef and frozen tater tots to the bowl. Mix until evenly coated.",
         "Spread the mixture evenly into the prepared baking dish.",
         "Bake for 45 minutes, or until hot and bubbly."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Hawaiian Roll Sliders",
@@ -109,7 +110,8 @@
         "Place the bottom halves of the Hawaiian rolls in the prepared pan. Layer with ham slices, caramelized onions, and cheese. Add the top halves of the rolls, then brush the poppy seed mixture evenly over the tops.",
         "Bake for 10–12 minutes, or until the cheese is melted and the tops are lightly golden.",
         "Serve with the honey mustard dipping sauce (see recipe)."
-      ]
+      ],
+      "glutenFree": false
     }
   ],
   "Asian Meals": [
@@ -161,7 +163,8 @@
         "Stir in the garlic powder, ground ginger, and liquid aminos until well combined.",
         "Add the coleslaw mix and cook until wilted to your desired tenderness.",
         "Note: Do not add additional salt, as the liquid aminos provide sufficient seasoning."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Garlic Chicken",
@@ -241,7 +244,8 @@
         "In a separate skillet over medium heat, cook the cauliflower rice with the peas and carrots, seasoning with salt and pepper. Once heated through, push the rice to one side, add the eggs, scramble until cooked, then mix everything together.",
         "Note: If using xanthan gum in the garlic sauce, start with a very small amount. Stir well and add more gradually if needed, as the sauce will thicken quickly.",
         "Combine the garlic chicken mixture with the cauliflower rice. Garnish with sesame seeds and sliced green onions before serving."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Korean Beef",
@@ -311,7 +315,8 @@
         "In a medium bowl, whisk together the sesame oil, garlic, fresh ginger, rice vinegar, liquid aminos, beef broth, brown sugar, and red pepper flakes until well combined. Pour the mixture over the flank steak.",
         "Cover and cook on Low for 4–8 hours, or until the steak is tender.",
         "Serve over rice and garnish with sliced green onions."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Teriyaki Chicken Crispy Rice",
@@ -456,7 +461,8 @@
         "Chop the cucumber, cabbage, cilantro, green onions, and peanuts. Place in a large bowl.",
         "Add the chicken and crispy rice to the bowl and toss well. Drizzle with the desired amount of dressing and serve. Store in the refrigerator for up to 5 days."
       ],
-      "subtitle": "TikTok - @kalejunkie"
+      "subtitle": "TikTok - @kalejunkie",
+      "glutenFree": true
     },
     {
       "name": "Thai Chicken Lettuce Wrap",
@@ -548,7 +554,8 @@
         "In a small bowl, whisk together the cornstarch and water until fully dissolved.",
         "Pour the cornstarch mixture into the skillet and stir continuously as the sauce thickens.",
         "Remove from heat and spoon the chicken mixture into lettuce leaves. Garnish with chopped peanuts and sliced green onions before serving."
-      ]
+      ],
+      "glutenFree": true
     }
   ],
   "Italian Meals": [
@@ -592,7 +599,8 @@
         "In a saucepan over medium heat, combine the ketchup, brown sugar, onion, liquid smoke, and garlic powder. Heat until the sugar is fully dissolved, stirring occasionally.",
         "Place the meatballs in a crockpot and pour the sauce evenly over the top. Stir gently to coat.",
         "Cook on High for 1 hour, or until the meatballs are heated through."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Chicken Tetrazzini",
@@ -649,7 +657,8 @@
         "In a large bowl, combine the butter, cooked chicken, cream of chicken soup, sour cream, salt, pepper, and broth. Mix until well blended, then fold in the cooked noodles.",
         "Lightly grease a 9x13-inch baking dish and spread the mixture evenly into the pan. Top with shredded cheese.",
         "Bake for 45 minutes, or until hot and bubbly."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Crockpot Meatballs",
@@ -711,7 +720,8 @@
       "directions": [
         "In a crockpot set to Low, combine the BBQ sauce, butter, garlic salt, Mrs. Dash, brown sugar, beer, Tabasco sauce, whiskey, and habanero sauce. Stir until well blended.",
         "Add the meatballs and stir to coat evenly. Cook on Low until the meatballs are heated through."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Low Carb Chicken Spaghetti",
@@ -762,7 +772,8 @@
         }
       ],
       "subtitle": "mymontanakitchen.com",
-      "directions": []
+      "directions": [],
+      "glutenFree": true
     },
     {
       "name": "Million Dollar Spaghetti",
@@ -833,7 +844,8 @@
         "In a skillet over medium heat, brown the ground beef. Add the salt, pepper, Italian seasoning, garlic powder, and minced onion. Cook until thoroughly cooked, then drain excess grease. Stir in the spaghetti sauce and heat until warmed through.",
         "Place a few slices of butter in the bottom of the prepared 9x13-inch dish. Layer half of the noodles over the butter, followed by half of the white sauce and half of the meat sauce. Repeat the layers.",
         "Top with shredded mozzarella cheese and bake for 30–45 minutes, or until the cheese is golden brown and bubbly."
-      ]
+      ],
+      "glutenFree": false
     }
   ],
   "Mediterranean Meals": [
@@ -927,7 +939,8 @@
         "Once cooked, allow the chicken to rest for 5 minutes, then dice or slice into thin strips.",
         "Divide the chicken evenly among 4 bowls. Top with diced red onion, cucumber, tomatoes, olives, feta cheese, and tzatziki sauce.",
         "Finish with a squeeze of fresh lemon juice. Toss gently before serving."
-      ]
+      ],
+      "glutenFree": true
     }
   ],
   "Mexican Meals": [
@@ -1042,7 +1055,8 @@
         "Dip tortillas in the consommé, then pan-fry on both sides until lightly crispy and golden.",
         "Add Chihuahua cheese to one half of the tortilla and birria meat to the other half. Let the cheese melt.",
         "Fold the tortilla in half and flip to crisp both sides. Remove from pan and top with cilantro, diced red onion, and a squeeze of fresh lime juice."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "⭐ Elote Chicken Pasta",
@@ -1122,7 +1136,8 @@
         "In a skillet over medium-low heat, roast the sweet corn, stirring occasionally to prevent burning.",
         "In a large bowl, combine the sour cream, mayonnaise, taco seasoning, Tajín, lime zest, lime juice, and honey (to taste). Mix until smooth.",
         "Add the red onion, cilantro, cooked chicken, cooked pasta, roasted corn, and Cotija cheese. Toss until evenly combined."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Mexican Stuffed Peppers",
@@ -1193,7 +1208,8 @@
         "Preheat the oven to 350°F. Lightly grease a 9x13-inch baking dish.",
         "In a large skillet over medium heat, brown the ground beef with the onions, garlic, taco seasoning, salt, and pepper. Once fully cooked, drain excess grease if needed. Add the beef broth, Rotel, and cauliflower rice. Bring to a boil, then reduce heat and simmer for 10 minutes.",
         "Arrange the peppers cut-side up in the prepared baking dish. Fill each with the taco meat mixture, top with shredded cheese, and bake for 20–30 minutes, or until the cheese is golden brown and bubbly."
-      ]
+      ],
+      "glutenFree": true
     }
   ],
   "Soups": [
@@ -1241,7 +1257,8 @@
         "In a Dutch oven over medium heat, brown the ground beef or pork with the diced onion until fully cooked. Drain excess grease if needed.",
         "Add the Rotel, black beans, kidney beans, chili powder, and beef stock. Stir to combine and bring to a boil.",
         "Reduce heat to low, cover, and simmer for 20–30 minutes to allow the flavors to develop."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "⭐ French Onion Soup",
@@ -1307,7 +1324,8 @@
         "Divide the grated cheese evenly among the bowls, ensuring each has a generous amount on top.",
         "Place the bowls in the oven and bake until the cheese is melted and bubbly.",
         "Optional – Toasted Baguette: Brush slices lightly with olive oil and sprinkle with garlic powder and Italian seasoning. Toast in the oven until golden."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Potato Soup",
@@ -1376,7 +1394,8 @@
         "Add the diced potatoes, chicken broth, salt, pepper, garlic powder, and paprika. Bring to a boil, then reduce heat and simmer for 12–15 minutes, or until the potatoes are fork-tender.",
         "Reduce heat to low and stir in the milk, heavy cream, cheddar cheese, and sour cream. Cook until the cheese is fully melted and the soup is smooth.",
         "Stir in the crumbled bacon and serve warm."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Taco Soup",
@@ -1432,7 +1451,8 @@
         "Add the cream cheese, Rotel, drained and rinsed black beans, diced jalapeños or poblanos, and the remaining taco seasoning. Stir until combined.",
         "Pour in the chicken broth and bring to a gentle simmer. Cook for 20–30 minutes, stirring occasionally.",
         "Garnish with shredded cheese and fresh cilantro before serving."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Tortellini Soup",
@@ -1533,7 +1553,8 @@
         "Add the Italian sausage to the same pot and cook until browned. Create a space in the center of the pan and add the tomato paste. Let the tomato paste cook for about 1 minute before stirring it into the sausage mixture.",
         "Deglaze the pan with white wine and cook for about 2 minutes. Add the tomatoes, chicken stock, bay leaf, and Parmesan rind. Simmer uncovered for about 30 minutes.",
         "Remove the bay leaf and Parmesan rind. Add the spinach and tortellini and cook for 3–4 minutes, then stir in the heavy cream."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "White Chicken Chili",
@@ -1622,7 +1643,8 @@
         "Reduce heat and simmer for 30 minutes.",
         "Remove from heat and stir in the sour cream and heavy whipping cream.",
         "Optional: Garnish with shredded white cheddar cheese, cilantro, tortilla chips, avocado or sliced jalapeños."
-      ]
+      ],
+      "glutenFree": true
     }
   ]
 }

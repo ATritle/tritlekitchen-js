@@ -46,7 +46,8 @@
         "Remove from the refrigerator 30 minutes before baking, keeping the dish covered.",
         "Preheat the oven to 350°F. Bake covered for 30 minutes, then uncover and bake for an additional 20–25 minutes, or until set and lightly golden.",
         "Serve warm with maple syrup."
-      ]
+      ],
+      "glutenFree": false
     }
   ],
   "Overnight Oats": [
@@ -86,7 +87,8 @@
       "directions": [
         "In a bowl, combine the quick oats, cinnamon, almond milk, agave syrup, frozen blueberries, and salt. Stir until well blended.",
         "Pour into an 8-ounce mason jar, cover, and refrigerate overnight."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Chocolate Peanut Butter Overnight Oats",
@@ -131,7 +133,8 @@
       "directions": [
         "In a bowl, combine the quick oats, peanut butter, cacoa powder, chia seeds, syrup, almond milk and chocolate chips. Stir until well blended.",
         "Pour into an 8-ounce mason jar, cover, and refrigerate overnight."
-      ]
+      ],
+      "glutenFree": true
     }
   ],
   "Skillet": [
@@ -180,7 +183,8 @@
         "Whisk in the flour until smooth and slightly thickened, about the consistency of pourable cake batter.",
         "Carefully remove the skillet from the oven and swirl the melted butter to evenly coat the pan.",
         "Pour the batter into the skillet and bake for 15 minutes. Avoid opening the oven during the first 15 minutes of baking. Rotate the pan and bake for an additional 15 minutes, or until puffed and golden."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Pancakes",
@@ -242,7 +246,8 @@
         "Let the batter sit for 5–10 minutes to thicken.",
         "Heat a lightly greased griddle over medium to medium-low heat. Pour about ¼ cup of batter onto the griddle for each pancake.",
         "Cook until bubbles form on the surface and the edges look dry, then flip and cook until golden brown, about 2–3 minutes per side."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Protein Pancakes",
@@ -284,7 +289,8 @@
         "Add the egg and mix well. Stir in the egg whites, protein powder, and cinnamon until fully combined.",
         "Let the batter rest for 1–2 minutes.",
         "Heat a lightly greased griddle or skillet over medium-low heat. Pour the desired amount of batter onto the griddle. Cook slowly until small bubbles form on the surface or the bottom looks set, then flip and cook until golden."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Puff French Toast",
@@ -347,7 +353,8 @@
         "Heat oil in a large skillet over medium heat.",
         "Dip both sides of the bread into the batter, then place in the heated skillet. Cook for 2–3 minutes per side, or until golden brown.",
         "Serve warm with maple syrup or cinnamon sugar."
-      ]
+      ],
+      "glutenFree": false
     }
   ]
 }

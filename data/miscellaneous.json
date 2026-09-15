@@ -71,7 +71,8 @@
         "Fold in chocolate chips or walnuts, if desired.",
         "Pour the batter into a greased loaf pan and bake for 1 to 1½ hours, or until a toothpick inserted in the center comes out clean.",
         "If dividing the batter between two pans, bake for about 1 hour."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Banana Bread Bites",
@@ -145,7 +146,8 @@
         "Chill the dough in the refrigerator (or freezer) for 20 minutes.",
         "Using a mini cookie scoop, portion the dough onto a lined baking sheet.",
         "Bake for 8 minutes. Remove from the oven, gently flatten the cookies, then return to the oven and bake for an additional 2 minutes."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Zucchini Bread",
@@ -222,7 +224,8 @@
         "Optional: Sprinkle chocolate chips or chopped nuts over the batter before baking.",
         "Pour the batter evenly into the prepared bread pans.",
         "Bake for about 1 hour, or until a toothpick inserted into the center comes out clean."
-      ]
+      ],
+      "glutenFree": false
     }
   ],
   "Dips": [
@@ -278,7 +281,8 @@
       "directions": [
         "In a large bowl, combine the bacon, mayonnaise, sour cream, hot sauce, green onion, parsley, mustard powder, and cheddar cheese. Mix until well blended.",
         "Cover and refrigerate for 1–2 hours before serving to allow the flavors to develop."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Bagel Dip",
@@ -318,7 +322,8 @@
       "subtitle": "Renae Loy",
       "directions": [
         "In a large bowl, combine the mayonnaise, sour cream, dill, parsley, and green onion. Mix until well blended, then fold in the dried beef until evenly incorporated."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Buffalo Chicken Dip",
@@ -354,7 +359,8 @@
         "Drain the liquid from the canned chicken.",
         "Add all ingredients to a crockpot set to High. Stir occasionally until the cream cheese is fully melted and the mixture is heated through.",
         "Reduce heat to Warm and serve with tortilla chips."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Corn Dip",
@@ -395,7 +401,8 @@
       "subtitle": "Jesi Fuller",
       "directions": [
         "In a large bowl, combine the corn, jalapeños, onion, mayo, cheddar cheese, salt, pepper, and garlic. Mix until well blended."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Dunkaroo Dip",
@@ -423,7 +430,8 @@
         "Stir in the funfetti cake mix and sprinkles until evenly incorporated.",
         "Refrigerate until ready to serve.",
         "Serve with graham crackers."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Jalapeno Corn Dip",
@@ -472,7 +480,8 @@
       ],
       "directions": [
         "In a large bowl, combine the sour cream, mayonnaise, salsa, black pepper, garlic powder, corn, and jalapeños. Mix until well blended, then fold in the cheddar cheese."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Jalapeno Popper Dip",
@@ -512,7 +521,8 @@
         "Stir in the green chiles, jalapeños, and Parmesan cheese until well blended.",
         "Serve chilled, if desired.",
         "Optional – Warm Version: Transfer to a microwave-safe dish, top with additional cheese, and microwave on High for 3 minutes. Alternatively, place in an oven-safe dish and bake at 375°F for 30 minutes."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Mexican Corn Dip",
@@ -558,7 +568,8 @@
       "directions": [
         "In a large bowl, combine the mayonnaise, sour cream, corn, and Rotel. Mix until well blended.",
         "Fold in the cheddar cheese, green onions, and cilantro until evenly incorporated."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Pickle Wrap Dip",
@@ -595,7 +606,8 @@
       "directions": [
         "In a large bowl, combine the sour cream and cream cheese. Mix until smooth and well blended.",
         "Stir in the dried beef and pickles until evenly incorporated. Add a small amount of pickle juice, if desired, to enhance the flavor."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Pumpkin Harvest Dip",
@@ -640,7 +652,8 @@
         "In a large bowl, beat the cream cheese and powdered sugar until smooth and well combined.",
         "Add the pumpkin puree, pumpkin spice, vanilla, and ginger. Mix until fully incorporated.",
         "Refrigerate for 1–2 hours, then serve with apples or crackers."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Pumpkin Pie Dip",
@@ -679,7 +692,8 @@
         "Add the cottage cheese to a blender and blend for 30–60 seconds until completely smooth.",
         "Add the pumpkin puree, vanilla extract, pumpkin pie spice, maple syrup, and a pinch of salt (optional). Blend again until smooth and creamy.",
         "Taste and adjust sweetness with additional maple syrup if desired."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "⭐ White Queso",
@@ -730,7 +744,8 @@
         "In a saucepan over low heat, combine the cheese, evaporated milk, and butter. Stir frequently until melted and smooth.",
         "Stir in the green chiles, cumin, garlic powder, and cayenne pepper until well incorporated.",
         "Add additional evaporated milk as needed to reach your desired consistency."
-      ]
+      ],
+      "glutenFree": true
     }
   ],
   "Dressings": [
@@ -787,7 +802,8 @@
         "In a small bowl, mash the garlic and salt together until a smooth paste forms.",
         "Whisk in the lemon juice, mayonnaise, Worcestershire sauce, anchovy fillets, and black pepper until well combined.",
         "While whisking continuously, slowly drizzle in the extra-virgin olive oil until the dressing is smooth and emulsified."
-      ]
+      ],
+      "glutenFree": true
     }
   ],
   "Misc.": [
@@ -805,7 +821,8 @@
         "Some clumping is normal and will be resolved during processing.",
         "Transfer the dried pulp to a food processor and process until finely ground.",
         "Store in an airtight glass container."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Almond Milk",
@@ -855,7 +872,8 @@
         "Do not discard the leftover pulp. Reserve it for homemade almond flour (see almond flour recipe).",
         "For a sweeter milk, stir in stevia and vanilla to taste.",
         "Store in an airtight container in the refrigerator for 7–10 days. Shake well before each use."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Bourbon Butter",
@@ -903,7 +921,8 @@
       "subtitle": "Traeger.com",
       "directions": [
         "In a bowl, combine the butter, garlic, bourbon, green onion, parsley, salt, and pepper. Mix until well blended."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Caramel Popcorn Balls",
@@ -955,7 +974,8 @@
         "Place the popcorn in a large bowl. Pour the caramel mixture over the popcorn and stir until evenly coated.",
         "Lightly spray your hands with cooking spray and shape the popcorn into balls once it has cooled enough to handle.",
         "Optional: Once the caramel popcorn has cooled slightly, mix in M&M’s, chopped nuts, or a sprinkle of sea salt before forming the popcorn balls. You can also drizzle melted chocolate over the finished popcorn balls."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Cinnamon Butter",
@@ -987,7 +1007,8 @@
         "For a creamy consistency, allow the butter to sit at room temperature for at least 1 hour until very soft. Do not microwave, as this can affect the texture.",
         "In a medium bowl, combine the butter, powdered sugar, honey, and cinnamon. Mix until smooth. For an even smoother consistency, use a hand mixer.",
         "Refrigerate until ready to use."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Dry Brine",
@@ -1035,7 +1056,8 @@
         "Add 1 cup water to the roasting pan. Roast for 30 minutes at 500°F, then reduce the oven temperature to 350°F and continue roasting for 1½ to 2 hours.",
         "Rotate the pan after 1 hour. Roast until a thermometer inserted into the thickest part of the thigh registers 155°F.",
         "Remove from the oven and let rest for 20 minutes before transferring to a cutting board to carve and serve."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "⭐ Protein Balls",
@@ -1071,7 +1093,8 @@
         "Stir in the peanut butter and honey until well combined.",
         "Fold in the chocolate chips or M&M’s.",
         "Roll into balls and store in the refrigerator."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Puppy Chow",
@@ -1110,7 +1133,8 @@
         "If there are pools of chocolate in the bottom of the bowl, add additional cereal if desired.",
         "Let the mixture cool slightly in the refrigerator, then transfer it to a brown paper bag.",
         "Add 1 cup of powdered sugar at a time, seal the bag, and shake until evenly coated."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Taco Seasoning",
@@ -1167,7 +1191,8 @@
         "In a small bowl, combine all ingredients and mix well.",
         "Store in an airtight glass jar.",
         "Use 3 tablespoons of seasoning per 1 pound of meat."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Turkey Tender Marinade",
@@ -1221,7 +1246,8 @@
       "directions": [
         "In a large bowl, whisk together the liquid aminos, cooking sherry, oil, lemon juice, black pepper, garlic powder, onion, and lemon-lime soda.",
         "Place the turkey tenders in a large resealable plastic bag. Pour the marinade over the turkey, seal the bag, and refrigerate overnight."
-      ]
+      ],
+      "glutenFree": true
     }
   ],
   "Sauces": [
@@ -1248,7 +1274,8 @@
       "directions": [
         "In a large bowl, combine the mayonnaise, sour cream, and Cajun seasoning. Mix until well blended.",
         "Refrigerate before serving."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Fish Taco Sauce",
@@ -1282,7 +1309,8 @@
       "directions": [
         "In a small bowl, combine the mayonnaise, sour cream, lime juice, garlic powder, and chili powder. Mix until well blended.",
         "Refrigerate before serving to allow the flavors to blend."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "⭐ Honey Mustard",
@@ -1334,7 +1362,8 @@
       "directions": [
         "In a small bowl, combine the mayonnaise, Dijon mustard, yellow mustard, honey, apple cider vinegar, garlic powder, paprika, salt, and pepper. Whisk until smooth and well blended.",
         "Refrigerate before serving to allow the flavors to blend."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Margherita Pizza Sauce",
@@ -1380,7 +1409,8 @@
         "Stir in the garlic and oregano and cook for 30 seconds. Add the tomatoes, crushing them as they are added to the pan. Do not substitute crushed tomatoes.",
         "Bring to a boil, then reduce heat and simmer for about 5 minutes, stirring occasionally, until the mixture has thickened.",
         "Spread over pizza crust as desired. For canning, process in a water bath with lemon juice according to safe canning guidelines."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Sweet and Sour Sauce",
@@ -1431,7 +1461,8 @@
         "In a separate bowl, mix the cornstarch and water. Add the mixture to the saucepan.",
         "Whisk until the cornstarch is fully incorporated and the sauce has thickened to the desired consistency.",
         "Allow the sauce to cool before serving."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Tzatziki Sauce",
@@ -1479,7 +1510,8 @@
         "In a large bowl, combine all ingredients and mix well.",
         "Refrigerate for at least 1 hour, preferably overnight, to allow the flavors to develop.",
         "Optional: Drizzle with olive oil and sprinkle with fresh dill before serving."
-      ]
+      ],
+      "glutenFree": true
     }
   ],
   "Sides": [
@@ -1529,7 +1561,8 @@
         "Stir in 1/8 teaspoon vanilla.",
         "Add 1/8 teaspoon cinnamon.",
         "Add 1/8 teaspoon nutmeg."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Avocado Chips - Keto",
@@ -1565,7 +1598,8 @@
         "In a large bowl, mix all ingredients together until evenly combined.",
         "Preheat the air fryer to 400°F. Place the mixture in the basket in a single layer.",
         "Cook for 4 minutes, then flip and cook for an additional 4 minutes, or until golden and cooked through."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Baked Boursin Spaghetti Squash",
@@ -1635,7 +1669,8 @@
         "In the same skillet over medium heat, add the sun-dried tomatoes, spinach, basil, garlic, Boursin cheese, and heavy whipping cream. Optional: Add red pepper flakes. Stir often until the cheese is melted and the sauce is smooth.",
         "Once the spaghetti squash is done, use a fork to loosen the strands from the shell. Discard the shell and add the squash strands to the cheese mixture.",
         "Serve topped with fresh basil. Optional: Drizzle with balsamic glaze."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Broccoli Apple Pear Salad",
@@ -1708,7 +1743,8 @@
         "Add creamy dessing to bowl of vegetables, fruit and cashews.",
         "Combine and serve chilled."
       ],
-      "subtitle": "Linda Benter"
+      "subtitle": "Linda Benter",
+      "glutenFree": true
     },
     {
       "name": "Ole Feller Beans",
@@ -1799,7 +1835,8 @@
         "In a large skillet over medium heat, brown the beef and bacon until fully cooked. Drain excess grease if needed.",
         "Add the remaining ingredients and stir to combine.",
         "Bring to a gentle simmer and cook for 20–30 minutes, stirring occasionally. Alternatively, cook in a crockpot on Low for 6–8 hours."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Pinto Beans",
@@ -1855,7 +1892,8 @@
         "Add the bacon back to the skillet and stir to combine.",
         "Add the mixture to the beans and simmer for 15 minutes.",
         "Serve topped with queso fresco."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Potato Salad",
@@ -1917,7 +1955,8 @@
         "Place the potatoes in a large bowl and break them apart with a fork to the desired size.",
         "Add the mayonnaise mixture to the potatoes and mix well. Refrigerate for 2–3 hours before serving.",
         "Season with salt and pepper to taste before serving."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Quinoa Black Bean Salad",
@@ -2001,7 +2040,8 @@
         "In a small bowl, whisk together the lime juice, cumin, and salt. Slowly drizzle in the olive oil while whisking until well combined. Set aside.",
         "In a separate bowl, combine the black beans, red wine vinegar, and pepper. Mix well and set aside.",
         "Once the quinoa has cooled, place it in a large bowl. Add the bell pepper, corn, cilantro, bean mixture, and dressing. Gently toss until well combined."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Sweet Potato Casserole",
@@ -2077,7 +2117,8 @@
         "In a separate bowl, combine the brown sugar, flour, and pecans for the topping. Add the melted butter and mix with a fork until crumbly.",
         "Sprinkle the topping evenly over the sweet potatoes and bake uncovered for 30–45 minutes.",
         "Optional: Sprinkle mini marshmallows over the top during the last 5–10 minutes of baking and continue baking until the marshmallows are lightly golden."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "Sweet Potatoes",
@@ -2124,7 +2165,8 @@
         "In a large bowl, toss the sweet potatoes with the oil until evenly coated.",
         "Add the desired seasoning option and mix well.",
         "Spread the sweet potatoes onto a baking sheet and bake for 20–40 minutes, or until fork-tender."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Sweet Potatoes Gratin",
@@ -2205,7 +2247,8 @@
         "Arrange half of the sweet potatoes in the bottom of the prepared baking dish. Pour half of the milk mixture over the potatoes and sprinkle with half of the Gruyère cheese. Repeat the layers with the remaining sweet potatoes, milk mixture, and cheese.",
         "Cover the pan with foil and bake for 30 minutes. Remove the foil and bake for an additional 15 minutes, or until the potatoes are tender and the top is bubbly and golden brown.",
         "Let the dish stand for about 10 minutes before serving. Optional: Top with fresh herbs."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Vermicelli Pasta Salad",
@@ -2277,7 +2320,8 @@
         "In a large bowl, combine the Ac'cent, Lawry’s seasoning, lemon juice, and oil. Add the spaghetti and mix well. Cover and refrigerate for at least 2 hours, preferably overnight, to enhance the flavor.",
         "Remove the pasta from the refrigerator. Add the pimentos, bell peppers, red onion, celery, black olives, and mayonnaise. Mix until well combined.",
         "Refrigerate for at least 1 hour before serving."
-      ]
+      ],
+      "glutenFree": false
     }
   ]
 }

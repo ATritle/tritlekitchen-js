@@ -37,7 +37,8 @@
         "Add all ingredients to a crockpot and cook on Low for 2–3 hours, stirring occasionally.",
         "Taste and adjust the honey to reach your desired level of sweetness.",
         "Serve warm and garnish with apples."
-      ]
+      ],
+      "glutenFree": true
     },
     {
       "name": "Peach Pie Moonshine",
@@ -91,7 +92,8 @@
         "Strain the mixture through cheesecloth to remove small pieces of peaches.",
         "Ladle into jars and add 2–3 peach slices to each jar.",
         "Yields approximately 12–14 pint mason jars."
-      ]
+      ],
+      "glutenFree": true
     }
   ],
   "Shots": [
@@ -137,7 +139,8 @@
         "Fold in the whipped topping until evenly incorporated.",
         "Fill 2-ounce cups, place lids on, and freeze until ready to serve.",
         "Optional: Let sit at room temperature for a few minutes before serving if frozen solid."
-      ]
+      ],
+      "glutenFree": false
     },
     {
       "name": "RumChata Pudding Shots",
@@ -176,7 +179,8 @@
         "Fold in the whipped topping until evenly incorporated.",
         "Fill 2-ounce cups, place lids on, and freeze until ready to serve.",
         "Optional: Let sit at room temperature for a few minutes before serving if frozen solid."
-      ]
+      ],
+      "glutenFree": false
     }
   ]
 }
