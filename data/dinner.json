@@ -438,6 +438,151 @@
       ]
     },
     {
+      "name": "Teriyaki Chicken Crispy Rice2",
+      "url": "recipes/teriyaki-chicken-crispy-rice2.html",
+      "ingredients": [
+        {
+          "type": "section",
+          "text": "Crispy Rice:"
+        },
+        {
+          "amount": 2,
+          "unit": "cup",
+          "item": "jasmine rice",
+          "note": "rinsed and cooked"
+        },
+        {
+          "amount": 2.5,
+          "unit": "cup",
+          "item": "water"
+        },
+        {
+          "amount": 1,
+          "unit": "TBSP",
+          "item": "toasted sesame oil"
+        },
+        {
+          "amount": 2,
+          "unit": "TBSP",
+          "item": "teriyaki sauce"
+        },
+        {
+          "type": "section",
+          "text": "Chicken:"
+        },
+        {
+          "amount": 1,
+          "unit": "each",
+          "item": "rotisserie chicken",
+          "note": "1-2 LBS chicken - cooked and diced"
+        },
+        {
+          "amount": 0.25,
+          "unit": "cup",
+          "item": "teriyaki sauce"
+        },
+        {
+          "type": "section",
+          "text": "Salad:"
+        },
+        {
+          "amount": 0.5,
+          "unit": "cup",
+          "item": "english cucumber",
+          "note": "sliced and cut into quarters"
+        },
+        {
+          "amount": 0.5,
+          "unit": "cup",
+          "item": "red cabbage",
+          "note": "finely sliced"
+        },
+        {
+          "amount": 0.5,
+          "unit": "cup",
+          "item": "cilantro",
+          "note": "chopped"
+        },
+        {
+          "amount": 1,
+          "unit": "bunch",
+          "item": "green onions",
+          "note": "finely chopped"
+        },
+        {
+          "amount": 0.5,
+          "unit": "cup",
+          "item": "roasted unsalted peanuts",
+          "note": "diced small"
+        },
+        {
+          "amount": 1,
+          "unit": "each",
+          "item": "red bell pepper",
+          "note": "optional"
+        },
+        {
+          "type": "section",
+          "text": "Creamy sesame ginger dressing:"
+        },
+        {
+          "amount": 0.25,
+          "unit": "cup",
+          "item": "extra virgin olive oil"
+        },
+        {
+          "amount": 3,
+          "unit": "TBSP",
+          "item": "toasted sesame oil"
+        },
+        {
+          "amount": 3,
+          "unit": "TBSP",
+          "item": "liquid aminos"
+        },
+        {
+          "amount": 3,
+          "unit": "TBSP",
+          "item": "rice vinegar"
+        },
+        {
+          "amount": 2,
+          "unit": "TBSP",
+          "item": "maple syrup"
+        },
+        {
+          "amount": 2,
+          "unit": "TBSP",
+          "item": "nut butter",
+          "note": "peanut, almond or cashew"
+        },
+        {
+          "amount": "2-3",
+          "unit": "clove",
+          "item": "garlic",
+          "note": "mashed"
+        },
+        {
+          "amount": 1,
+          "unit": "TBSP",
+          "item": "fresh ginger",
+          "note": "grated"
+        }
+      ],
+      "directions": [
+        "Preheat the oven to 400°F and line a baking sheet with parchment paper. Rinse the rice under cold water 3–4 times, or until the water runs mostly clear. This helps remove excess starch and prevents stickiness.",
+        "In a medium saucepan over medium-high heat, combine the rinsed rice and water. Bring to a boil, then reduce heat to the lowest setting. Cover with a tight-fitting lid and cook for 12–15 minutes without lifting the lid.",
+        "Remove from heat and let sit, covered, for 15–20 minutes.",
+        "Remove the lid and fluff with a fork. Allow the rice to cool completely, then transfer to a bowl and toss with toasted sesame oil and teriyaki sauce until well coated.",
+        "Spread the rice evenly onto the prepared baking sheet. Bake for 15 minutes, stir, then bake for an additional 15 minutes. Continue baking, stirring every 10–15 minutes as needed, until the rice reaches your desired crispiness.",
+        "If using a rotisserie chicken, remove the meat from the bones, chop, and toss with teriyaki sauce. If using uncooked chicken, cook in a skillet until fully cooked, then coat with teriyaki sauce.",
+        "Add all dressing ingredients to a small blender and blend for about 1 minute, or until smooth.",
+        "Chop the cucumber, cabbage, cilantro, green onions, and peanuts. Place in a large bowl.",
+        "Add the chicken and crispy rice to the bowl and toss well. Drizzle with the desired amount of dressing and serve. Store in the refrigerator for up to 5 days."
+      ],
+      "subtitle": "TikTok - @kalejunkie"
+    },
+    {
       "name": "Thai Chicken Lettuce Wrap",
       "url": "recipes/thai-chicken-lettuce-wrap.html",
       "ingredients": [
