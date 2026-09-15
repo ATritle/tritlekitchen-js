@@ -993,11 +993,23 @@ function renderRoute(){
     renderHome();
   }
 
-  app.scrollIntoView({behavior:'smooth',block:'start'});
+  // Keep normal route changes at the top of the page. The previous
+  // app.scrollIntoView() call could leave the home page slightly scrolled
+  // down because #app begins below the site header.
+  const hasRecipeSection = raw.endsWith('/ingredients') || raw.endsWith('/directions');
+  if (!hasRecipeSection) {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+  }
 }
 
 async function boot(){
   try{
+    // Prevent the browser from restoring a previous scroll position when
+    // loading or refreshing the site.
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
+    }
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
     db=await loadRecipes();
     const favs=read('favorites',{}); db.recipes.forEach(r=>{if(Object.prototype.hasOwnProperty.call(favs,r.id))r.favorite=favs[r.id]});
     addEventListener('hashchange',renderRoute); renderRoute();
