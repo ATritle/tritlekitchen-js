@@ -228,6 +228,66 @@
       "glutenFree": false
     }
   ],
+  "Canning": [
+    {
+      "name": "Canned Rotel",
+      "url": "recipes/canned-rotel.html",
+      "glutenFree": false,
+      "ingredients": [
+        {
+          "amount": 12,
+          "unit": "cup",
+          "item": "tomatoes",
+          "note": "cored, peeled, and quartered"
+        },
+        {
+          "amount": 1,
+          "unit": "cup",
+          "item": "chili peppers",
+          "note": "can substitute diced jalapenos"
+        },
+        {
+          "amount": 1,
+          "unit": "TBSP",
+          "item": "canning salt",
+          "note": "or pure seal salt"
+        },
+        {
+          "amount": 1,
+          "unit": "tsp",
+          "item": "black pepper"
+        },
+        {
+          "amount": 1,
+          "unit": "tsp",
+          "item": "dried oregano leaves"
+        },
+        {
+          "amount": "1/2",
+          "unit": "tsp",
+          "item": "coriander",
+          "note": "powdered dried cilantro seed"
+        },
+        {
+          "amount": 1,
+          "unit": "tsp",
+          "item": "citritc acid",
+          "note": "1/4 tsp for each pint, 1/2 tsp for quarts or 1 TBSP bottled lemon juice for pints (2 TBSP for quarts)"
+        }
+      ],
+      "directions": [
+        "Wash, core, and blanch the tomatoes in the large stockpot, removing them to a large bowl in batches. When done, empty then and peel and quarter tomatoes, adding them to the stockpot as you go.",
+        "Wash, stem, and seed chilies (leave the seeds to increases spiciness if you’d like). Finely chop by hand or cut into large pieces and finely chop in a food processor.",
+        "Add chilies, salt, pepper, oregano, and coriander to tomatoes in stockpot, bring to a low boil, reduce heat and simmer for 10 minutes.",
+        "While tomato mixture is simmering, prepare canner, jars and lids (see note for a tutorial for water-bath canning).",
+        "To clean, hot, pint canning jars, add 1/4 teaspoon citric acid or 1 tablespoon lemon juice (if using quart jars, add 1/2 teaspoon citric acid or 2 tablespoons lemon juice).",
+        "Ladle the tomato-chili mixture into each jar, leaving 1/2-inch headspace. Remove bubbles with a spatula, wipe rims, and attach lids.",
+        "Add jars to canner, cover, bring to a boil and process 40 minutes for pints (50 minutes for quarts), adjusting heat as needed to maintain a soft boil. When timer goes off, remove lid, turn off heat and allow jars to sit in canner 5 minutes.",
+        "Remove jars from canner to a towel-lined counter and let cool 12 to 24 hours. Remove rings for storage and check lids to be sure they’ve sealed (gently pull up with your fingers). Refrigerate any that didn’t seal.",
+        "Tips: Use 10 oz canning jars to replicate the size of Rotel cans.  Process the same as pints."
+      ]
+    }
+  ],
   "Dips": [
     {
       "name": "Bacon Dip",
