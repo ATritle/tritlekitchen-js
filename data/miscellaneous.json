@@ -286,6 +286,107 @@
         "Remove jars from canner to a towel-lined counter and let cool 12 to 24 hours. Remove rings for storage and check lids to be sure they’ve sealed (gently pull up with your fingers). Refrigerate any that didn’t seal.",
         "Tips: Use 10 oz canning jars to replicate the size of Rotel cans.  Process the same as pints."
       ]
+    },
+    {
+      "name": "Canned Spaghetti Sauce",
+      "url": "recipes/canned-spaghetti-sauce.html",
+      "glutenFree": false,
+      "ingredients": [
+        {
+          "amount": 25,
+          "unit": "lbs",
+          "item": "tomatoes",
+          "note": "any variety, Roma preffered."
+        },
+        {
+          "amount": 5,
+          "unit": "each",
+          "item": "onion",
+          "note": "medium, chopped"
+        },
+        {
+          "amount": 4,
+          "unit": "each",
+          "item": "red bell pepper"
+        },
+        {
+          "amount": 1,
+          "unit": "each",
+          "item": "green bell pepper"
+        },
+        {
+          "amount": 24,
+          "unit": "oz",
+          "item": "tomato paste",
+          "note": "(4) 6 oz cans"
+        },
+        {
+          "amount": "1/4",
+          "unit": "cup",
+          "item": "soy sauce"
+        },
+        {
+          "amount": 3,
+          "unit": "TBSP",
+          "item": "worcestershire sauce"
+        },
+        {
+          "amount": "2/3",
+          "unit": "cup",
+          "item": "brown sugar",
+          "note": "packed"
+        },
+        {
+          "amount": "1/4",
+          "unit": "cup",
+          "item": "canning salt",
+          "note": "aka, pickling salt"
+        },
+        {
+          "amount": 10,
+          "unit": "clove",
+          "item": "garlic",
+          "note": "chopped or minced"
+        },
+        {
+          "amount": 3,
+          "unit": "TBSP",
+          "item": "oregano",
+          "note": "dried"
+        },
+        {
+          "amount": 3,
+          "unit": "TBSP",
+          "item": "basil",
+          "note": "dried"
+        },
+        {
+          "amount": 2,
+          "unit": "tsp",
+          "item": "red pepper flakes"
+        },
+        {
+          "amount": 2,
+          "unit": "each",
+          "item": "bay leaves"
+        },
+        {
+          "amount": "1-1/4",
+          "unit": "cup",
+          "item": "lemon juice",
+          "note": "will be added in small amounts to jars"
+        }
+      ],
+      "directions": [
+        "Fill a large pot or Dutch oven halfway with water and bring it to a boil. Working in batches, add tomatoes and boil for 1 to 2 minutes, or until the skins begin to split.",
+        "Remove the tomatoes with a slotted spoon and place them in an ice water bath. Peel and quarter the tomatoes over a large bowl so you save the juices. Remove the tough stem area. The tomatoes do not need to be seeded.",
+        "In a food processor, pulse the onions and bell peppers in batches until finely chopped. For extra flavor, you can sauté the peppers and onions in a little oil with a pinch of salt before adding them to the sauce.",
+        "In a large stockpot, combine the tomatoes, onion and pepper mixture, tomato paste, soy sauce, Worcestershire sauce, brown sugar, salt, garlic, oregano, basil, red pepper flakes, and bay leaves.",
+        "Bring to a boil. Reduce heat and simmer uncovered for 4 to 5 hours, stirring every 15 minutes or so to prevent scorching. Remove and discard the bay leaves. For a smoother sauce, use an immersion blender to blend until smooth.",
+        "Add 2 tablespoons bottled lemon juice to each hot quart jar, or 1 tablespoon bottled lemon juice to each hot pint jar. Ladle hot sauce into hot jars, leaving ½ inch headspace. Remove air bubbles, wipe rims clean, and add lids and rings.",
+        "Note: Do not forget the lemon juice! If you forget to add the lemon juice you will need to open the jars, add the juice, replace with new lids, and reprocess.",
+        "For Water Bath Canning:\n\nProcess quart jars for 40 minutes in a boiling-water canner for altitudes of 1,000 feet or less. Adjust processing time for higher altitudes:\n1,001 to 3,000 feet: add 5 minutes\n3,001 to 6,000 feet: add 10 minutes\n6,001 to 8,000 feet: add 15 minutes\n8,001 to 10,000 feet: add 20 minutes"
+      ]
     }
   ],
   "Dips": [
