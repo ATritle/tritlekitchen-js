@@ -1158,7 +1158,12 @@
         }
       ],
       "subtitle": "minimalistbaker.com",
-      "directions": [],
+      "directions": [
+        "Preheat the oven to 350°F and grease or line a mini muffin tin, regular muffin tin, mini bread pans, or a regular bread pan.",
+        "In a large bowl, whisk together the avocado oil, almond milk, coconut sugar, syrup, and vanilla until well combined.",
+        "Fold in the zucchini until well coated. Stir in the almond flour, flour, flaxseed meal, baking powder, baking soda, cinnamon, and sea salt until fully incorporated.",
+        "Bake mini muffins for 15–20 minutes, regular muffins for 25–30 minutes, mini bread pans for 40–45 minutes, or a regular bread pan for about 1 hour, or until a toothpick inserted into the center comes out clean."
+      ],
       "glutenFree": true
     }
   ],
