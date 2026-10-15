@@ -1068,8 +1068,8 @@
           "note": "cooked & diced"
         },
         {
-          "amount": 2,
-          "item": "-3 TBSP taco seasoning"
+          "amount": 4,
+          "item": "-6 TBSP taco seasoning"
         },
         {
           "amount": 12,
@@ -1326,6 +1326,131 @@
         "Optional – Toasted Baguette: Brush slices lightly with olive oil and sprinkle with garlic powder and Italian seasoning. Toast in the oven until golden."
       ],
       "glutenFree": false
+    },
+    {
+      "name": "Lasagna Soup",
+      "url": "recipes/lasagna-soup.html",
+      "glutenFree": false,
+      "ingredients": [
+        {
+          "type": "section",
+          "text": "Soup"
+        },
+        {
+          "amount": 2,
+          "unit": "tsp",
+          "item": "olive oil"
+        },
+        {
+          "amount": 1.5,
+          "unit": "lbs",
+          "item": "italian sausage"
+        },
+        {
+          "amount": 1,
+          "unit": "each",
+          "item": "large yellow onion",
+          "note": "approx. 3 cups chopped"
+        },
+        {
+          "amount": 4,
+          "unit": "clove",
+          "item": "garlic",
+          "note": "minced"
+        },
+        {
+          "amount": 2,
+          "unit": "tsp",
+          "item": "oregano"
+        },
+        {
+          "amount": 0.5,
+          "unit": "tsp",
+          "item": "kosher salt"
+        },
+        {
+          "amount": 0.25,
+          "unit": "tsp",
+          "item": "black pepper"
+        },
+        {
+          "amount": 0.25,
+          "unit": "tsp",
+          "item": "red pepper flakes"
+        },
+        {
+          "amount": 3,
+          "unit": "TBSP",
+          "item": "tomato paste"
+        },
+        {
+          "amount": 30,
+          "unit": "oz",
+          "item": "diced tomatoes",
+          "note": "fire roasted"
+        },
+        {
+          "amount": 2,
+          "unit": "each",
+          "item": "bay leaves"
+        },
+        {
+          "amount": 6,
+          "unit": "cup",
+          "item": "chicken stock"
+        },
+        {
+          "amount": 8,
+          "unit": "oz",
+          "item": "mafalda pasta",
+          "note": "fusilli and farfalle are also good options"
+        },
+        {
+          "amount": 0.5,
+          "unit": "each",
+          "item": "fresh basil leaves",
+          "note": "thinly sliced"
+        },
+        {
+          "type": "section",
+          "text": "Cheese Mixture"
+        },
+        {
+          "amount": 8,
+          "unit": "oz",
+          "item": "full fat ricotta"
+        },
+        {
+          "amount": 0.5,
+          "unit": "cup",
+          "item": "parmesan cheese"
+        },
+        {
+          "amount": 0.25,
+          "unit": "tsp",
+          "item": "kosher salt"
+        },
+        {
+          "amount": 1,
+          "unit": "pinch",
+          "item": "black pepper"
+        },
+        {
+          "amount": 2,
+          "unit": "cup",
+          "item": "mozzarella cheese",
+          "note": "shredded"
+        }
+      ],
+      "directions": [
+        "SOUP: Heat olive oil in a large pot over medium heat.  Add sausage and brown for 3 minutes, breaking it up into bite-size pieces with a wooden spoon.",
+        "Add onion, garlic, oregano, salt, pepper, and red pepper flakes, and cook until onion is softened and sausage is browned, about 7 more minutes.",
+        "Sire in tomato paste and cook for 2 minutes more.",
+        "Add diced tomoatoes, bay leaves, and chicken stock.  Bring just to a boil, then reduce heat and simmer for 15 minutes.",
+        "Meanwhile, cook pasta in a separate saucepan according to package directions, just to al dente.  Do not over-cook.  Drain.",
+        "CHEESE MIXTURE:  In a medium bowl, combine the ricotta, parmesan, mozzarella, salt and pepper.  Set aside.",
+        "SERVE:  Stir fresh basil into soup right before serving.  Then add cooked pasta to individual bowls and ladle soup over the top.  Serve with dollops of cheese mixture, plus additional mozzarella, if desired."
+      ]
     },
     {
       "name": "Potato Soup",
