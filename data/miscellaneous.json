@@ -453,6 +453,55 @@
       ]
     },
     {
+      "name": "Pickled Jalapeno Peppers",
+      "url": "recipes/pickled-jalapeno-peppers.html",
+      "glutenFree": true,
+      "ingredients": [
+        {
+          "amount": 5,
+          "unit": "each",
+          "item": "jalapeno",
+          "note": "washed and thinly sliced"
+        },
+        {
+          "amount": 1,
+          "unit": "clove",
+          "item": "garlic",
+          "note": "peeled and smashed"
+        },
+        {
+          "amount": "3/4",
+          "unit": "cup",
+          "item": "water",
+          "note": "filtered"
+        },
+        {
+          "amount": "3/4",
+          "unit": "cup",
+          "item": "distilled vinegar"
+        },
+        {
+          "amount": 2,
+          "unit": "TBSP",
+          "item": "sugar",
+          "note": "cane or granualted white"
+        },
+        {
+          "amount": 1,
+          "unit": "tsp",
+          "item": "kosher salt"
+        }
+      ],
+      "directions": [
+        "Add sliced jalapeños and smashed garlic clove to a 16 ounce mason jar.",
+        "Add water, vinegar, sugar, and salt to a small pot over medium heat. Bring to a boil, then remove from heat, whisking to ensure the sugar and salt completely dissolve.",
+        "Pour the liquid into the jar so that it completely covers the jalapeños. Let cool on the counter for about 15 minutes, then screw on the jar lid and refrigerate for 24 hours.",
+        "Enjoy with nachos, on pizza, in sandwiches, and more! Pickled jalapeños will keep refrigerated for about 2 weeks.",
+        "NOTES:\nThe pickled jalapenos are not made for canning, therefore you should keep them refrigerated."
+      ],
+      "subtitle": "vanillaandbean.com"
+    },
+    {
       "name": "Salted Caramel Pear Butter",
       "url": "recipes/salted-caramel-pear-butter.html",
       "glutenFree": true,
