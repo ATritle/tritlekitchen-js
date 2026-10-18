@@ -230,6 +230,70 @@
   ],
   "Canning": [
     {
+      "name": "Bruschetta",
+      "url": "recipes/bruschetta.html",
+      "glutenFree": true,
+      "ingredients": [
+        {
+          "amount": 9,
+          "unit": "cup",
+          "item": "tomatoes",
+          "note": "cored, chopped"
+        },
+        {
+          "amount": 5,
+          "unit": "clove",
+          "item": "garlic",
+          "note": "finely chopped"
+        },
+        {
+          "amount": 1,
+          "unit": "cup",
+          "item": "white wine",
+          "note": "dry"
+        },
+        {
+          "amount": 1,
+          "unit": "cup",
+          "item": "white wine vinegar",
+          "note": "at least 5% acidity"
+        },
+        {
+          "amount": "1/2",
+          "unit": "cup",
+          "item": "water"
+        },
+        {
+          "amount": 2,
+          "unit": "TBSP",
+          "item": "sugar"
+        },
+        {
+          "amount": 2,
+          "unit": "TBSP",
+          "item": "dried basil"
+        },
+        {
+          "amount": 2,
+          "unit": "TBSP",
+          "item": "dried oregano"
+        },
+        {
+          "amount": 2,
+          "unit": "tsp",
+          "item": "balsamig vinegar",
+          "note": "at least 5% acidity"
+        }
+      ],
+      "directions": [
+        "Prepare boiling water canner. Heat jars in simmering water until ready for use. Do not boil. Wash lids in warm soapy water and set aside with bands.",
+        "In a large, deep, stainless steel saucepan, combine garlic, wine, wine vinegar, water, sugar, basil, oregano and balsamic vinegar. Bring to a full rolling boil over high heat, stirring occasionally. Reduce heat, cover and simmer 5 minutes or until garlic is heated through. Remove from heat.",
+        "Pack tomatoes into a hot jar leaving a ½ inch headspace. Ladle hot vinegar mixture over tomatoes, leaving a ½ inch headspace. Remove air bubbles. Wipe jar rim. Center lid on jar and apply band, adjust to fingertip tight. Place jar in boiling-water canner, making sure water covers jar by at least 1 inch. Repeat until all jars are filled.",
+        "Water must cover jars by 1 inch. Adjust heat to medium-high, cover canner, and bring water to a rolling boil. Process half-pint jars 20 minutes, adjusting for altitude. Turn off heat and remove cover. Let jars cool 5 minutes. Remove jars from canner; do not retighten bands if loose. Cool 12-24 hours. Check lids for seal, they should not flex when center is pressed."
+      ],
+      "subtitle": "ballmasonjars.com"
+    },
+    {
       "name": "Canned Rotel",
       "url": "recipes/canned-rotel.html",
       "glutenFree": false,
