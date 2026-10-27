@@ -850,6 +850,158 @@
   ],
   "Mediterranean Meals": [
     {
+      "name": "Beef Broth Bowls",
+      "url": "recipes/beef-broth-bowls.html",
+      "glutenFree": true,
+      "ingredients": [
+        {
+          "type": "section",
+          "text": "Rice"
+        },
+        {
+          "amount": 1,
+          "unit": "cup",
+          "item": "basmati rice"
+        },
+        {
+          "type": "section",
+          "text": "Ground Beef"
+        },
+        {
+          "amount": 1,
+          "unit": "TBSP",
+          "item": "coconut oil"
+        },
+        {
+          "amount": 1,
+          "unit": "LB",
+          "item": "ground beef"
+        },
+        {
+          "amount": 1.5,
+          "unit": "TBSP",
+          "item": "ginger",
+          "note": "finely minced"
+        },
+        {
+          "amount": 1.5,
+          "unit": "TBSP",
+          "item": "garlic",
+          "note": "finely minced"
+        },
+        {
+          "amount": 2,
+          "unit": "tsp",
+          "item": "cornstarch"
+        },
+        {
+          "amount": "1/4",
+          "unit": "cup",
+          "item": "chicken broth"
+        },
+        {
+          "amount": 2.5,
+          "unit": "TBSP",
+          "item": "soy sauce",
+          "note": "liquid aminos as substitute"
+        },
+        {
+          "amount": 2,
+          "unit": "tsp",
+          "item": "white sugar"
+        },
+        {
+          "amount": "1/2",
+          "unit": "tsp",
+          "item": "toasted sesame oil"
+        },
+        {
+          "amount": "1/4",
+          "unit": "tsp",
+          "item": "white pepper"
+        },
+        {
+          "type": "section",
+          "text": "Broth"
+        },
+        {
+          "amount": 2,
+          "unit": "TBSP",
+          "item": "red curry paste"
+        },
+        {
+          "amount": 1,
+          "unit": "tsp",
+          "item": "yellow curry powder"
+        },
+        {
+          "amount": 1,
+          "unit": "can",
+          "item": "coconut milk"
+        },
+        {
+          "amount": 1,
+          "unit": "cup",
+          "item": "chicken broth"
+        },
+        {
+          "amount": 1,
+          "unit": "TBSP",
+          "item": "soy sauce",
+          "note": "liquid aminos as substitute"
+        },
+        {
+          "amount": 1,
+          "unit": "each",
+          "item": "lime"
+        },
+        {
+          "amount": "1/4",
+          "unit": "cup",
+          "item": "cilantro",
+          "note": "finely chopped"
+        },
+        {
+          "type": "section",
+          "text": "Toppings"
+        },
+        {
+          "amount": 1,
+          "unit": "each",
+          "item": "toasted sesame seeds"
+        },
+        {
+          "amount": 2,
+          "unit": "each",
+          "item": "cucumbers",
+          "note": "diced"
+        },
+        {
+          "amount": 4,
+          "unit": "each",
+          "item": "green onions",
+          "note": "thinly sliced"
+        },
+        {
+          "amount": 1,
+          "unit": "each",
+          "item": "chili crunch",
+          "note": "optional for heat/spice"
+        }
+      ],
+      "directions": [
+        "Rice: Fill a large pot with water and bring to a boil. Once boiling, generously salt the water and add the rice. Boil for 10 minutes, then taste to make sure the rice is tender. Drain well and return the rice to the dry pot. Cover with a lid and let steam until ready to serve",
+        "Beef: Heat coconut oil in a large skillet over high heat. Once hot, add the ground beef and leave it undisturbed for a few minutes so it can develop some nice browned spots. Break the beef into small pieces with a wooden spoon and continue cooking, stirring only occasionally, until nicely browned all over.",
+        "Sauce: Meanwhile, add cornstarch & 1/4 cup chicken broth to a wide-mouth mason jar. Secure the lid and shake vigorously until completely smooth. Add the soy sauce, sugar, sesame oil, and white pepper. Shake again and set aside.",
+        "Beef: Once the beef is nicely browned, reduce the heat to medium. Add 1 tablespoon each garlic & ginger and cook, stirring constantly, for about 30 seconds or until fragrant. Shake the sauce once more, then pour it into the skillet. Stir for 1–2 minutes, until the sauce thickens, caramelizes, and clings to the beef. Use a slotted spoon to remove to a plate and cover with foil.",
+        "Don’t wipe out the skillet. Leave any rendered fat in the skillet. If the pan looks dry, add a little coconut oil.",
+        "Broth: Return the skillet to low heat. Add remaining 1/2 tablespoon each garlic & ginger and cook for 20 seconds. Stir in the red curry paste & curry powder and cook for about 1 minute, until fragrant. Lower the heat or add a tiny splash of water if anything starts to brown.",
+        "Broth: Pour in the coconut milk, scraping up the browned bits from the pan, then whisk until smooth. Add the chicken broth and bring to a boil. Boil for 1 minute then reduce the heat to low and stir in the soy sauce, juice from 1/2 of a lime, and the cilantro. Taste and add more soy sauce or lime juice if needed.",
+        "Assemble: Divide rice evenly among 3 to 4 bowls (see Note 1). Add the beef alongside the rice, then ladle the hot coconut curry broth around everything. Top with diced cucumber, toasted sesame seeds, sliced green onions, extra cilantro, and a very light drizzle of toasted sesame oil. Add chili crunch for more heat, if desired. Cut the remaining lime into wedges and serve alongside."
+      ],
+      "subtitle": "chelseasmessyapron.com"
+    },
+    {
       "name": "Chicken Gyro Bowl",
       "url": "recipes/chicken-gyro-bowl.html",
       "ingredients": [
