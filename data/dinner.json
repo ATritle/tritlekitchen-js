@@ -724,6 +724,92 @@
       "glutenFree": false
     },
     {
+      "name": "Lasagna",
+      "url": "recipes/lasagna.html",
+      "glutenFree": false,
+      "ingredients": [
+        {
+          "amount": 1,
+          "unit": "LB",
+          "item": "ground beef"
+        },
+        {
+          "amount": "1/2",
+          "unit": "LB",
+          "item": "italian sausage"
+        },
+        {
+          "amount": 1,
+          "unit": "clove",
+          "item": "garlic",
+          "note": "minced"
+        },
+        {
+          "amount": 48,
+          "unit": "oz",
+          "item": "spaghetti sauce"
+        },
+        {
+          "amount": 15,
+          "unit": "oz",
+          "item": "ricotta cheese"
+        },
+        {
+          "amount": 3,
+          "unit": "cup",
+          "item": "mozzarella cheese",
+          "note": "shredded"
+        },
+        {
+          "amount": 2,
+          "unit": "each",
+          "item": "eggs"
+        },
+        {
+          "amount": "3/4",
+          "unit": "cup",
+          "item": "parmesan cheese",
+          "note": "grated"
+        },
+        {
+          "amount": 2,
+          "unit": "tsp",
+          "item": "dried parsley"
+        },
+        {
+          "amount": "1/4",
+          "unit": "clove",
+          "item": "salt"
+        },
+        {
+          "amount": "1/4",
+          "unit": "tsp",
+          "item": "ground pepper"
+        },
+        {
+          "amount": 12,
+          "unit": "each",
+          "item": "noodles"
+        },
+        {
+          "amount": "1/4",
+          "unit": "cup",
+          "item": "water"
+        }
+      ],
+      "directions": [
+        "To prepare, preheat the oven to 350ºF and spray a 9×13 casserole dish with cooking spray.",
+        "In a large skillet over medium heat brown the ground beef and sausage together. Drain off and discard any fat. Add the minced garlic and spaghetti sauce. Simmer for 5 minutes. 1 pound ground beef, ½ pound sweet Italian sausage, 1 teaspoon minced garlic, 48 ounces spaghetti sauce",
+        "In a large bowl, mix together the ricotta, 2 cups of the mozzarella cheese, eggs, ½ cup of grated Parmesan cheese, dried parsley, salt and ground black pepper. Mix well. 15 ounces ricotta cheese, 3 cups shredded mozzarella cheese, 2 large eggs, ¾ cup grated Parmesan cheese, 2 teaspoons dried parsley, ¼ teaspoon salt, ¼ teaspoon ground pepper",
+        "To assemble, spread ¾ cup of sauce on the bottom of the baking pan. Cover the bottom with 3 uncooked lasagna noodles. Top with ⅓ of the cheese mixture and ¼ of the sauce. 12 lasagna noodles",
+        "Repeat layers (noodles, cheese, sauce, noodles, cheese, sauce).",
+        "Top with 3 noodles, remaining sauce, remaining 1 cup of mozzarella and Parmesan cheese. If your sauce is a thick, hearty sauce, add ½ cup water to the edges of the pan. If your sauce is runnier like Old World Style Ragu or even Rao’s marinara, you won’t need as much water. ¼ cup water**–",
+        "Spray a sheet of aluminum foil with cooking spray. Cover with the baking dish with aluminum foil (sprayed side down). This prevents the cheese from sticking. Bake in the preheated oven for 50 minutes. Uncover and bake an additional 10 minutes.",
+        "Let the lasagna stand for 10 minutes before cutting and serving."
+      ],
+      "subtitle": "tastesoflizzyt.com"
+    },
+    {
       "name": "Low Carb Chicken Spaghetti",
       "url": "recipes/low-carb-chicken-spaghetti.html",
       "ingredients": [
