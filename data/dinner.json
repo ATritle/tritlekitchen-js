@@ -112,6 +112,90 @@
         "Serve with the honey mustard dipping sauce (see recipe)."
       ],
       "glutenFree": false
+    },
+    {
+      "name": "Mississippi Roast",
+      "url": "recipes/mississippi-roast.html",
+      "glutenFree": false,
+      "ingredients": [
+        {
+          "amount": 1,
+          "unit": "each",
+          "item": "chuck roast",
+          "note": "boneless"
+        },
+        {
+          "amount": "1/4",
+          "unit": "cup",
+          "item": "flour",
+          "note": "for dredge"
+        },
+        {
+          "amount": 1,
+          "unit": "pinch",
+          "item": "salt",
+          "note": "to taste"
+        },
+        {
+          "amount": 1,
+          "unit": "pinch",
+          "item": "pepper",
+          "note": "to taste"
+        },
+        {
+          "amount": 3,
+          "unit": "TBSP",
+          "item": "avocado oil"
+        },
+        {
+          "amount": 4,
+          "unit": "TBSP",
+          "item": "butter"
+        },
+        {
+          "amount": 10,
+          "unit": "each",
+          "item": "peppercini"
+        },
+        {
+          "amount": 2,
+          "unit": "TBSP",
+          "item": "mayo",
+          "note": "Dukes"
+        },
+        {
+          "amount": 2,
+          "unit": "tsp",
+          "item": "apple cider vinegar"
+        },
+        {
+          "amount": "1/4",
+          "unit": "tsp",
+          "item": "dill"
+        },
+        {
+          "amount": "1/8",
+          "unit": "tsp",
+          "item": "paprika"
+        },
+        {
+          "amount": 1,
+          "unit": "each",
+          "item": "parsley",
+          "note": "for garnish"
+        }
+      ],
+      "directions": [
+        "Dredge the chuck roast in flour, salt, and pepper, and massage it into the meat.",
+        "In a skillet on a very high heat, brown the meat on all sides in the oil to create a crust.",
+        "Transfer the meat to a crock pot and top with butter and peppercini peppers.",
+        "Cover the crock pot and set it to low.",
+        "In a small bowl, mix the mayonnaise, apple cider vinegar, dill, and paprika until well combined.",
+        "Spread over the meat, and cook on low for 8 hours.",
+        "Remove the roast and shred.",
+        "Return meat to crock pot, and stir to mix in the juices.  Serve with fresh parsley."
+      ],
+      "subtitle": "buyobuyo"
     }
   ],
   "Asian Meals": [
